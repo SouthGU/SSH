@@ -1,1 +1,2 @@
-轻量级框架SSH的日常作业上传地址~
+This is the upload storage directory for the lightweight framework.
+SSH~
