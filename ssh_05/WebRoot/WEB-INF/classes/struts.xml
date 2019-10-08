@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+<struts>
+	<constant name="struts.custom.i18n.resources" value="messages"/>
+	<package name="xgl" extends="struts-default" namespace="/">
+		<action name="upload" class="com.sise.xgl.FileUploadActiom">
+			<param name="savePath">/save</param>
+			<result name="input">/upload.jsp</result>
+			<result name="success">/uploadResult.jsp</result>
+		<interceptor-ref name="fileUpload">
+			
+				<!-- 语序上传的mime类型 -->
+				 <!-- <param name="allowedTypes">application/msword</param>-->
+				<!-- 允许上传的文件的扩展名,多个扩展名用逗号分隔 -->
+				 <param name="allowedExtensions">txt,doc,pptx,txt,jpg </param> 
+				<param name="maximumSize">1048576</param>
+		</interceptor-ref>
+		<interceptor-ref name="defaultStack"/>
+		</action>
+	</package>
+</struts>
