@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+<struts>
+<!--
+	 namespace="/ssh_02"的话，就得两个ssh_02  =>  http://localhost:8080/ssh_02/ssh_02/login 
+	 项目创建的时候已经有了一个虚拟目录。
+-->
+ <package name="demo01" extends="struts-default" namespace="/">
+ 	<interceptors>
+ 		<interceptor name="authorty" class="xgl.AuthorityInterceptor"/>
+ 		<interceptor-stack name="myStack">
+ 			<interceptor-ref name="defaultStack"/>
+ 			<interceptor-ref name="authorty"/>
+ 		</interceptor-stack>
+ 	</interceptors>
+ 	<global-results>
+ 		<result name="login">/login.jsp</result>
+ 	</global-results>
+ 	<action name="login" class="xgl.UserAction">
+ 		<result name="success" type="redirectAction">
+ 			<param name="actionName">addUser</param>
+ 			<param name="namespace">/</param>
+ 		</result>
+ 	</action>
+ 	<action name="addUser" class="xgl.UserAction"  method="addUser">  <!-- -->
+ 		<result name="add">/addUser.jsp</result>
+ 		<interceptor-ref name="myStack"/>
+ 	</action>
+ </package>
+</struts>
