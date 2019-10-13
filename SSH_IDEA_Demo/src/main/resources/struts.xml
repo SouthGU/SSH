@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+
+<struts>
+
+<package name="null" extends="struts-default">
+    <!--这里的name自定义、尽量与Action中的name相同，method定位到所处action中的class的具体方法，result的name为return 后返回的方法名称-->
+    <action name="helloWord" class="HelloWord" method="helloWord">
+        <result name="success">helloword.jsp</result>
+    </action>
+</package>
+</struts>
