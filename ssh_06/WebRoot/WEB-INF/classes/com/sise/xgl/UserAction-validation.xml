@@ -1,0 +1,28 @@
+<!DOCTYPE validators PUBLIC "-//Apache Struts//XWork Validator 1.0.3//EN"
+"http://struts.apache.org/dtds/xwork-validator-1.0.3.dtd">
+<validators> 
+	<!-- 
+	<field name=”待校验字段名称”>
+  <field-validator type=”校验器名称”>
+     <param name=”参数名”>参数值</param>
+     <message>校验失败的提示信息</message>
+   //  <message key=”key”/> 
+  </field-validator>
+</field>
+	 -->
+<field name="namae">
+  <field-validator type="requiredstring">
+     <param name="trim">true</param>
+     <message key="errors.name.requiredstring"/> 
+  </field-validator>
+</field>
+
+<field name="password1">
+  <field-validator type="requiredstring">
+     <param name="trim">true</param>
+     <message key="errors.password"/> 
+  </field-validator>
+</field>
+
+ 
+</validators>
