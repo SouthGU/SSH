@@ -75,3 +75,40 @@
 </hibernate-configuration>
 ```
 
+
+
+### 五、 **实体类com.demo.domain.User** 
+
+### 六、 **映射文件com/demo/domain/User.hbm.xml** 
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.demo.domain">
+    <!--
+        name：即实体类的全名
+        table：映射到数据库里面的那个表的名称
+        catalog：数据库的名称
+     -->
+    <class name="User" table="tb_user" catalog="hibernate">
+        <!-- class下必须要有一个id的子元素 -->
+        <!-- id是用于描述主键的 -->
+        <id name="id" column="id">
+            <!-- 主键生成策略 -->
+            <generator class="native"/>
+        </id>
+        <!--
+            使用property来描述属性与字段的对应关系
+            如果length忽略不写，且你的表是自动创建这种方案，那么length的默认长度是255
+        -->
+        <property name="username" column="username" length="20"/>
+        <property name="birthday" column="birthday" length="20"/>
+        <property name="sex" column="sex" length="2"/>
+        <property name="address" column="address" length="50"/>
+    </class>
+</hibernate-mapping>
+
+```
+
