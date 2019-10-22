@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="domain">
+    <class name="domain.demo08.Person_demo08" table="person_demo08" discriminator-value="person_demo08">
+        <id name="id" type="integer">
+            <generator class="native"/>
+        </id>
+        <!--设置鉴别字段名称-->
+        <discriminator column="type" type="java.lang.String" length="15"/>
+        <!--从父类继承下来的共同属性-->
+        <property name="name" type="java.lang.String" column="username" length="12" not-null="true"/>
+        <property name="sex" type="java.lang.String" length="1"/>
+        <property name="age" type="integer"/>
+
+        <subclass name="domain.demo08.Student_demo08" discriminator-value="student_demo08">
+            <!--子类新增属性-->
+            <property name="sno" type="java.lang.String" length="10"/>
+            <property name="school" type="java.lang.String" length="50"/>
+        </subclass>
+        <subclass name="domain.demo08.Worker_demo08" discriminator-value="work_demo08">
+            <!--子类新增属性-->
+            <property name="no" column="wno" type="java.lang.String" length="10"/>
+            <property name="salary" type="double"/>
+        </subclass>
+    </class>
+</hibernate-mapping>

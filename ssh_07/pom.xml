@@ -23,6 +23,21 @@
             <artifactId>junit</artifactId>
             <version>4.12</version>
         </dependency>
+        <!--c3p0-->
+        <dependency>
+            <groupId>com.mchange</groupId>
+            <artifactId>c3p0</artifactId>
+            <version>0.9.5.2</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-c3p0 -->
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-c3p0</artifactId>
+            <version>5.4.2.Final</version>
+        </dependency>
+
+
+
     </dependencies>
 
 </project>
