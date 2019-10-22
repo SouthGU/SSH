@@ -34,5 +34,6 @@
         <mapping resource="domain/demo08/Person.hbm.xml"/>
         <mapping resource="domain/demo08/Person_demo08.hbm.xml"/>
         <mapping resource="domain/demo08/Person_demo08_02.hbm.xml"/>
+        <mapping resource="domain/demo08/Person_demo08_03.hbm.xml"/>
     </session-factory>
 </hibernate-configuration>
