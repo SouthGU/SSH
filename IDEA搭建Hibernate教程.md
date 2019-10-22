@@ -135,14 +135,19 @@ public interface HibernateDao {
 package utils;
 
 public class HibernateUtil {
+    // SessionFactory全局只需要有一个就可以了
+    //因为它的创建和销毁需要消耗大量的资源，初始化信息会比较多,并且它是线程安全的，可以在多线程的环境下使用它
     private static SessionFactory sf;
     private HibernateUtil(){}
     static {
+        // new Configuration():代表配置文件的一个对象
+        // .configure():读取默认的配置文件hibernate.cfg.xml
         Configuration cfg= new Configuration().configure();
         sf = cfg.buildSessionFactory();
         }
 
-        public  static Session getSession(){
+    //获取全局唯一的SessionFactory
+     public static Session getSession(){
             Session session  = sf.getCurrentSession();
             return session;
         }
@@ -160,12 +165,12 @@ package dao.impl;
 public class HibernateDaoImpl implements HibernateDao {
     public void addPerson(Person person) {
         Session session = HibernateUtil.getSession();
-        Transaction tx = session.beginTransaction();
+        Transaction tx = session.beginTransaction(); // 开启事务
         try {
         session.persist(person);
-        tx.commit();
+        tx.commit();					
         }catch (Exception e){
-            if(null!=tx) tx.rollback();
+            if(null!=tx) tx.rollback(); // 回滚事务
             e.printStackTrace();
         }
     }
