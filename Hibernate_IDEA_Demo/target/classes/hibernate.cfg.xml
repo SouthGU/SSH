@@ -9,25 +9,13 @@
         <property name="hibernate.connection.url">jdbc:mysql:///hibernate?useUnicode=true&amp;characterEncoding=UTF-8</property>
         <property name="hibernate.connection.username">root</property>
         <property name="hibernate.connection.password">12345678</property>
-
-        <!-- 可以将向数据库发送的SQL语句显示出来 -->
-        <property name="hibernate.show_sql">true</property>
-        <!-- 格式化SQL语句 -->
-        <property name="hibernate.format_sql">true</property>
-        <!-- hibernate的方言 -->
-        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
-        <!--  数据库方言  -->
-        <!--<property name="dialect">org.hibernate.dialect.MySQLDialect</property>-->
         <!--// 5.0之后使用的数据库方言-->
         <property name="dialect">org.hibernate.dialect.MySQL5Dialect</property>
-
-        <!--  显示sql语句  -->
         <property name="show_sql">true</property>
-
-        <!--  格式化sql语句  -->
         <property name="format_sql">true</property>
-
         <property name="hbm2ddl.auto">update</property>
+        <!--如果使用的是本地事务（jdbc事务 本地事务：数据库只有一个）-->
+        <property name="current_session_context_class">thread</property>
         <!-- 配置hibernate的映射文件所在的位置 -->
         <mapping resource="com.demo.domain/User.hbm.xml"/>
     </session-factory>
