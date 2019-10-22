@@ -134,17 +134,17 @@ public class UserDao {
             // List<User> list = query.list(); // 使用HQL查询
 
             // 方式二：方法链
-            List<User> list = session.createQuery( //
-                    "FROM User") //
-                    .setFirstResult(firstResult) //
-                    .setMaxResults(maxResults) //
+            List<User> list = session.createQuery(
+                    "FROM User")
+                    .setFirstResult(firstResult)
+                    .setMaxResults(maxResults)
                     .list();
 
             // 查询总记录数
             // session.createQuery("SELECT COUNT(*) FROM User").list().get(0);
             // Long count = (Long) session.createQuery("SELECT COUNT(*) FROM User").uniqueResult();
-            Long count = (Long) session.createQuery( //
-                    "SELECT COUNT(*) FROM User") //
+            Long count = (Long) session.createQuery(
+                    "SELECT COUNT(*) FROM User")
                     .uniqueResult();
             tx.commit();
 

@@ -113,4 +113,7 @@ public class HibernateTest {
         session.getTransaction().commit();
         session.close();
         sessionFactory.close();
-    }}
+    }
+
+
+}
