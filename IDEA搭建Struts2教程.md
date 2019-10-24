@@ -51,22 +51,28 @@ javassist-3.11.0.GA.jar 【struts对字节码的处理相关jar】
 ### 6.Web.xml引入Struts2核心功能
 
 ```xml
-<!--引入struts2过滤器-->
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <!--引入struts2过滤器-->
   <filter>
     <filter-name>struts2</filter-name>
-   	<filterclass>
-        org.apache.struts2.dispatcher.filter.StrutsPrepareAndExecuteFilter
-    </filter-class>
+    <filter-class> org.apache.struts2.dispatcher.filter.StrutsPrepareAndExecuteFilter</filter-class>
   </filter>
-
   <filter-mapping>
-    	<filter-name>struts2</filter-name>
-   		<url-pattern>/*</url-pattern>
+    <filter-name>struts2</filter-name>
+    <url-pattern>/*</url-pattern>
   </filter-mapping>
 
   <welcome-file-list>
     <welcome-file>index.jsp</welcome-file>
   </welcome-file-list>
+</web-app>
+
+
 ```
 
 ![](./img/7.jpg)

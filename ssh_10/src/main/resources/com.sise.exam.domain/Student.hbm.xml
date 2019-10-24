@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.sise.exam.domain">
+        <class name="com.sise.exam.domain.Student" table="Student_10">
+            <id name="id">
+                <generator class="native"/>
+            </id>
+            <property name="name" type="java.lang.String" length="120" not-null="true" column="username"/>
+            <property name="sno" type="java.lang.String" length="6" not-null="true"/>
+        </class>
+</hibernate-mapping>
