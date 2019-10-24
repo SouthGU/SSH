@@ -39,4 +39,16 @@ public class HibernateDaoImpl implements HibernateDao {
         tx.commit();
         return order;
     }
+
+    public void addProduct(Product product) {
+        Session session = HibernateUtil.getSession();
+        Transaction tx = session.beginTransaction();
+        try {
+            session.persist(product);
+            tx.commit();
+        } catch (Exception e) {
+            if (null != tx) tx.rollback();
+            e.printStackTrace();
+        }
+    }
 }

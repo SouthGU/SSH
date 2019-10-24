@@ -16,4 +16,6 @@ public interface HibernateDao {
 
     public Order findOrderById(int id);
 
+    public void addProduct(Product product);
+
 }
