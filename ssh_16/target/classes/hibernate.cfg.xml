@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+
+        <!--// 5.0之后使用的数据库方言-->
+        <property name="dialect">org.hibernate.dialect.MySQL5Dialect</property>
+        <property name="show_sql">true</property>
+        <property name="format_sql">true</property>
+        <property name="hbm2ddl.auto">update</property>
+
+        <!--如果使用的是本地事务（jdbc事务 本地事务：数据库只有一个）-->
+        <!--<property name="current_session_context_class">thread</property>-->
+
+        <!--事务hibernate是5.x的版本-->
+        <!--spring中事务是在配置文件中配置自动开启，因为由getCurrentSession得到的session中是当前线程的session，
+        但是当前线程中没有开启事务的代码，所以不能获transaction  。
+        然而spring+hibernate整合必须要有活动的事务才能执行dao中的方法，这个可以从报错信息中可以看出。-->
+        <property name="hibernate.current_session_context_class">org.springframework.orm.hibernate5.SpringSessionContext</property>
+
+
+
+        <!-- 配置hibernate的映射文件所在的位置 -->
+        <mapping resource="domain/Student.hbm.xml"/>
+
+    </session-factory>
+</hibernate-configuration>
