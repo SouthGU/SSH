@@ -7,8 +7,407 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="980749f9-4f22-471a-bdd1-b354f5805036" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../ssh_10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh_10/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ssh_10/target/classes/Action/StudentAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_07_08/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_07_08/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_07_08/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_07_08/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_07_08/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_07_08/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_07_08/src/main/java/dao/HibernateDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_07_08/src/main/java/dao/HibernateDao_demo08.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_07_08/src/main/java/dao/HibernateDao_demo08_02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_07_08/src/main/java/dao/HibernateDao_demo08_03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_07_08/src/main/java/dao/impl/HibernateDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_07_08/src/main/java/dao/impl/HibernateDaoImpl_demo08.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_07_08/src/main/java/dao/impl/HibernateDaoImpl_demo08_02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_07_08/src/main/java/dao/impl/HibernateDaoImpl_demo08_03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_07_08/src/main/java/domain/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_07_08/src/main/java/domain/demo08/Person_demo08.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_07_08/src/main/java/domain/demo08/Person_demo08_02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_07_08/src/main/java/domain/demo08/Person_demo08_03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_07_08/src/main/java/domain/demo08/Student_demo08.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_07_08/src/main/java/domain/demo08/Student_demo08_02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_07_08/src/main/java/domain/demo08/Student_demo08_03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_07_08/src/main/java/domain/demo08/Worker_demo08.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_07_08/src/main/java/domain/demo08/Worker_demo08_02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_07_08/src/main/java/domain/demo08/Worker_demo08_03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_07_08/src/main/java/main/HibernateTest_demo08.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_07_08/src/main/java/main/HibernateTest_demo08_02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_07_08/src/main/java/main/HibernateTest_demo08_03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_07_08/src/main/java/main/HiernateTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_07_08/src/main/java/utils/HibernateUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_07_08/src/main/resources/domain/demo08/Person.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_07_08/src/main/resources/domain/demo08/Person_demo08.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_07_08/src/main/resources/domain/demo08/Person_demo08_02.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_07_08/src/main/resources/domain/demo08/Person_demo08_03.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_07_08/src/main/resources/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_07_08/src/test/java/HiernateTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_07_08/ssh_07.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_07_08/target/classes/META-INF/ssh_07.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_07_08/target/classes/dao/HibernateDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_07_08/target/classes/dao/HibernateDao_demo08.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_07_08/target/classes/dao/HibernateDao_demo08_02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_07_08/target/classes/dao/HibernateDao_demo08_03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_07_08/target/classes/dao/impl/HibernateDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_07_08/target/classes/dao/impl/HibernateDaoImpl_demo08.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_07_08/target/classes/dao/impl/HibernateDaoImpl_demo08_02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_07_08/target/classes/dao/impl/HibernateDaoImpl_demo08_03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_07_08/target/classes/domain/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_07_08/target/classes/domain/demo08/Person.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_07_08/target/classes/domain/demo08/Person_demo08.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_07_08/target/classes/domain/demo08/Person_demo08.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_07_08/target/classes/domain/demo08/Person_demo08_02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_07_08/target/classes/domain/demo08/Person_demo08_02.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_07_08/target/classes/domain/demo08/Person_demo08_03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_07_08/target/classes/domain/demo08/Person_demo08_03.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_07_08/target/classes/domain/demo08/Student_demo08.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_07_08/target/classes/domain/demo08/Student_demo08_02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_07_08/target/classes/domain/demo08/Student_demo08_03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_07_08/target/classes/domain/demo08/Worker_demo08.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_07_08/target/classes/domain/demo08/Worker_demo08_02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_07_08/target/classes/domain/demo08/Worker_demo08_03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_07_08/target/classes/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_07_08/target/classes/main/HibernateTest_demo08.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_07_08/target/classes/main/HibernateTest_demo08_02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_07_08/target/classes/main/HibernateTest_demo08_03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_07_08/target/classes/main/HiernateTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_07_08/target/classes/utils/HibernateUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_07_08/target/test-classes/HiernateTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_07_08/用IDEA导入项目.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_09/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_09/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_09/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_09/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_09/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_09/ssh_09.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_10/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_10/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_10/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_10/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_10/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_10/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_10/src/main/java/Action/StudentAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_10/src/main/java/com/sise/exam/domain/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_10/src/main/resources/com.sise.exam.domain/Student.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_10/src/main/resources/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_10/src/main/resources/struts.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_10/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_10/src/main/webapp/addStudent.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_10/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_10/src/main/webapp/success.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_10/target/classes/struts.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_10/target/ssh_10.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_10/target/ssh_10/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_10/target/ssh_10/WEB-INF/classes/Action/StudentAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_10/target/ssh_10/WEB-INF/classes/struts.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_10/target/ssh_10/WEB-INF/lib/commons-fileupload-1.3.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_10/target/ssh_10/WEB-INF/lib/commons-io-2.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_10/target/ssh_10/WEB-INF/lib/commons-lang3-3.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_10/target/ssh_10/WEB-INF/lib/freemarker-2.3.26-incubating.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_10/target/ssh_10/WEB-INF/lib/javassist-3.20.0-GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_10/target/ssh_10/WEB-INF/lib/log4j-api-2.9.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_10/target/ssh_10/WEB-INF/lib/ognl-3.1.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_10/target/ssh_10/WEB-INF/lib/struts2-core-2.5.14.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_10/target/ssh_10/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_10/target/ssh_10/addStudent.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_10/target/ssh_10/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_10/target/ssh_10/success.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_10/综合测试.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/src/main/java/Action/RegisterAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/src/main/java/dao/Impl/RegisterDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/src/main/java/dao/RegisterDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/src/main/java/dao/UserDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/src/main/java/domain/Register.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/src/main/java/domain/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/src/main/java/entity/QueryResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/src/main/java/utils/HibernateUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/src/main/java/utils/HibernateUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/src/main/resources/Action/RegisterAction-addRegister-validation.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/src/main/resources/domain/Register.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/src/main/resources/domain/User.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/src/main/resources/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/src/main/resources/struts.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/src/main/webapp/WEB-INF/a.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/src/main/webapp/WEB-INF/showRegister.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/src/main/webapp/register.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/src/test/java/test/UserDaoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/classes/Action/RegisterAction-addRegister-validation.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/classes/Action/RegisterAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/classes/META-INF/ssh_11.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/classes/WEB-INF/a.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/classes/WEB-INF/showRegister.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/classes/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/classes/dao/Impl/RegisterDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/classes/dao/RegisterDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/classes/dao/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/classes/domain/Register.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/classes/domain/Register.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/classes/domain/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/classes/domain/User.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/classes/entity/QueryResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/classes/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/classes/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/classes/register.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/classes/struts.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/classes/utils/HibernateUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/classes/utils/HibernateUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/ssh_11.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/ssh_11/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/ssh_11/WEB-INF/a.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/ssh_11/WEB-INF/classes/Action/RegisterAction-addRegister-validation.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/ssh_11/WEB-INF/classes/Action/RegisterAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/ssh_11/WEB-INF/classes/META-INF/ssh_11.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/ssh_11/WEB-INF/classes/WEB-INF/a.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/ssh_11/WEB-INF/classes/WEB-INF/showRegister.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/ssh_11/WEB-INF/classes/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/ssh_11/WEB-INF/classes/dao/Impl/RegisterDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/ssh_11/WEB-INF/classes/dao/RegisterDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/ssh_11/WEB-INF/classes/dao/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/ssh_11/WEB-INF/classes/domain/Register.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/ssh_11/WEB-INF/classes/domain/Register.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/ssh_11/WEB-INF/classes/domain/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/ssh_11/WEB-INF/classes/domain/User.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/ssh_11/WEB-INF/classes/entity/QueryResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/ssh_11/WEB-INF/classes/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/ssh_11/WEB-INF/classes/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/ssh_11/WEB-INF/classes/register.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/ssh_11/WEB-INF/classes/struts.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/ssh_11/WEB-INF/classes/utils/HibernateUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/ssh_11/WEB-INF/classes/utils/HibernateUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/ssh_11/WEB-INF/lib/FastInfoset-1.2.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/ssh_11/WEB-INF/lib/antlr-2.7.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/ssh_11/WEB-INF/lib/byte-buddy-1.9.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/ssh_11/WEB-INF/lib/classmate-1.3.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/ssh_11/WEB-INF/lib/commons-fileupload-1.3.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/ssh_11/WEB-INF/lib/commons-io-2.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/ssh_11/WEB-INF/lib/commons-lang3-3.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/ssh_11/WEB-INF/lib/dom4j-2.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/ssh_11/WEB-INF/lib/freemarker-2.3.26-incubating.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/ssh_11/WEB-INF/lib/hamcrest-core-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/ssh_11/WEB-INF/lib/hibernate-commons-annotations-5.1.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/ssh_11/WEB-INF/lib/hibernate-core-5.4.2.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/ssh_11/WEB-INF/lib/istack-commons-runtime-3.0.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/ssh_11/WEB-INF/lib/jandex-2.0.5.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/ssh_11/WEB-INF/lib/javassist-3.24.0-GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/ssh_11/WEB-INF/lib/javax.activation-api-1.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/ssh_11/WEB-INF/lib/javax.persistence-api-2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/ssh_11/WEB-INF/lib/jaxb-api-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/ssh_11/WEB-INF/lib/jaxb-runtime-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/ssh_11/WEB-INF/lib/jboss-logging-3.3.2.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/ssh_11/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/ssh_11/WEB-INF/lib/junit-4.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/ssh_11/WEB-INF/lib/log4j-api-2.9.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/ssh_11/WEB-INF/lib/mysql-connector-java-5.1.38.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/ssh_11/WEB-INF/lib/ognl-3.1.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/ssh_11/WEB-INF/lib/stax-ex-1.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/ssh_11/WEB-INF/lib/struts2-core-2.5.14.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/ssh_11/WEB-INF/lib/txw2-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/ssh_11/WEB-INF/showRegister.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/ssh_11/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/ssh_11/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/ssh_11/register.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_11/target/test-classes/test/UserDaoTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_12/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_12/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_12/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_12/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_12/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_12/src/main/java/Foreigner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_12/src/main/java/Local.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_12/src/main/java/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_12/src/main/java/PersonServiceBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_12/src/main/java/SpringTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_12/src/main/resources/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_12/ssh_12.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_12/target/classes/Foreigner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_12/target/classes/Local.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_12/target/classes/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_12/target/classes/PersonServiceBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_12/target/classes/SpringTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_12/target/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_13/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_13/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_13/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_13/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_13/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_13/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_13/src/main/java/SM/PersonDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_13/src/main/java/SM/PersonDaoBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_13/src/main/java/SM/PersonService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_13/src/main/java/SM/PersonServiceBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_13/src/main/java/SM/SpringTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_13/src/main/resources/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_13/ssh_13.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_13/target/classes/META-INF/ssh_13.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_13/target/classes/SM/PersonDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_13/target/classes/SM/PersonDaoBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_13/target/classes/SM/PersonService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_13/target/classes/SM/PersonServiceBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_13/target/classes/SM/SpringTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_13/target/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_14/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_14/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_14/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_14/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_14/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_14/src/main/java/com/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_14/src/main/java/com/PersonDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_14/src/main/java/com/PersonDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_14/src/main/java/com/PersonDaoImpl2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_14/src/main/java/com/PersonService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_14/src/main/java/com/PersonServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_14/src/main/java/com/SpringTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_14/src/main/resources/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_14/src/main/resources/com/Person.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_14/ssh_14.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_14/target/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_14/target/classes/com/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_14/target/classes/com/Person.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_14/target/classes/com/PersonDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_14/target/classes/com/PersonDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_14/target/classes/com/PersonDaoImpl2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_14/target/classes/com/PersonService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_14/target/classes/com/PersonServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_14/target/classes/com/SpringTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_15/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_15/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_15/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_15/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_15/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_15/src/main/java/AOP/LoginService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_15/src/main/java/AOP/LoginServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_15/src/main/java/AOP/MyInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_15/src/main/java/AOP/SpringAOPTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_15/src/main/resources/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_15/ssh_15.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_15/target/classes/AOP/LoginService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_15/target/classes/AOP/LoginServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_15/target/classes/AOP/MyInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_15/target/classes/AOP/SpringAOPTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_15/target/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_16/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_16/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_16/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_16/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_16/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_16/src/main/java/Test/SpringTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_16/src/main/java/dao/Impl/StudentDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_16/src/main/java/dao/StudentDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_16/src/main/java/domain/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_16/src/main/java/service/Impl/StudentServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_16/src/main/java/service/StudentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_16/src/main/resources/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_16/src/main/resources/domain/Student.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_16/src/main/resources/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_16/ssh_16.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_16/target/classes/Test/SpringTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_16/target/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_16/target/classes/dao/Impl/StudentDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_16/target/classes/dao/StudentDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_16/target/classes/domain/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_16/target/classes/domain/Student.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_16/target/classes/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_16/target/classes/service/Impl/StudentServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_16/target/classes/service/StudentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IDEA导入项目(SSH作业)/ssh_16/target/test-classes/META-INF/ssh_16.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_07_08/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh_07_08/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_07_08/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_07_08/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh_07_08/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_07_08/target/classes/META-INF/ssh_07.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_07_08/target/classes/dao/HibernateDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_07_08/target/classes/dao/HibernateDao_demo08.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_07_08/target/classes/dao/HibernateDao_demo08_02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_07_08/target/classes/dao/HibernateDao_demo08_03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_07_08/target/classes/dao/impl/HibernateDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_07_08/target/classes/dao/impl/HibernateDaoImpl_demo08.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_07_08/target/classes/dao/impl/HibernateDaoImpl_demo08_02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_07_08/target/classes/dao/impl/HibernateDaoImpl_demo08_03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_07_08/target/classes/domain/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_07_08/target/classes/domain/demo08/Person.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_07_08/target/classes/domain/demo08/Person_demo08.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_07_08/target/classes/domain/demo08/Person_demo08.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_07_08/target/classes/domain/demo08/Person_demo08_02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_07_08/target/classes/domain/demo08/Person_demo08_02.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_07_08/target/classes/domain/demo08/Person_demo08_03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_07_08/target/classes/domain/demo08/Person_demo08_03.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_07_08/target/classes/domain/demo08/Student_demo08.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_07_08/target/classes/domain/demo08/Student_demo08_02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_07_08/target/classes/domain/demo08/Student_demo08_03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_07_08/target/classes/domain/demo08/Worker_demo08.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_07_08/target/classes/domain/demo08/Worker_demo08_02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_07_08/target/classes/domain/demo08/Worker_demo08_03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_07_08/target/classes/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_07_08/target/classes/main/HibernateTest_demo08.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_07_08/target/classes/main/HibernateTest_demo08_02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_07_08/target/classes/main/HibernateTest_demo08_03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_07_08/target/classes/main/HiernateTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_07_08/target/classes/utils/HibernateUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_07_08/target/test-classes/HiernateTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/ssh_11.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssh_11.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssh_11/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssh_11/WEB-INF/a.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssh_11/WEB-INF/classes/Action/RegisterAction-addRegister-validation.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssh_11/WEB-INF/classes/Action/RegisterAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssh_11/WEB-INF/classes/META-INF/ssh_11.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssh_11/WEB-INF/classes/WEB-INF/a.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssh_11/WEB-INF/classes/WEB-INF/showRegister.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssh_11/WEB-INF/classes/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssh_11/WEB-INF/classes/dao/Impl/RegisterDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssh_11/WEB-INF/classes/dao/RegisterDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssh_11/WEB-INF/classes/dao/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssh_11/WEB-INF/classes/domain/Register.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssh_11/WEB-INF/classes/domain/Register.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssh_11/WEB-INF/classes/domain/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssh_11/WEB-INF/classes/domain/User.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssh_11/WEB-INF/classes/entity/QueryResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssh_11/WEB-INF/classes/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssh_11/WEB-INF/classes/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssh_11/WEB-INF/classes/register.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssh_11/WEB-INF/classes/struts.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssh_11/WEB-INF/classes/utils/HibernateUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssh_11/WEB-INF/classes/utils/HibernateUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssh_11/WEB-INF/lib/FastInfoset-1.2.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssh_11/WEB-INF/lib/antlr-2.7.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssh_11/WEB-INF/lib/byte-buddy-1.9.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssh_11/WEB-INF/lib/classmate-1.3.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssh_11/WEB-INF/lib/commons-fileupload-1.3.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssh_11/WEB-INF/lib/commons-io-2.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssh_11/WEB-INF/lib/commons-lang3-3.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssh_11/WEB-INF/lib/dom4j-2.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssh_11/WEB-INF/lib/freemarker-2.3.26-incubating.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssh_11/WEB-INF/lib/hamcrest-core-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssh_11/WEB-INF/lib/hibernate-commons-annotations-5.1.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssh_11/WEB-INF/lib/hibernate-core-5.4.2.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssh_11/WEB-INF/lib/istack-commons-runtime-3.0.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssh_11/WEB-INF/lib/jandex-2.0.5.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssh_11/WEB-INF/lib/javassist-3.24.0-GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssh_11/WEB-INF/lib/javax.activation-api-1.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssh_11/WEB-INF/lib/javax.persistence-api-2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssh_11/WEB-INF/lib/jaxb-api-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssh_11/WEB-INF/lib/jaxb-runtime-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssh_11/WEB-INF/lib/jboss-logging-3.3.2.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssh_11/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssh_11/WEB-INF/lib/junit-4.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssh_11/WEB-INF/lib/log4j-api-2.9.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssh_11/WEB-INF/lib/mysql-connector-java-5.1.38.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssh_11/WEB-INF/lib/ognl-3.1.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssh_11/WEB-INF/lib/stax-ex-1.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssh_11/WEB-INF/lib/struts2-core-2.5.14.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssh_11/WEB-INF/lib/txw2-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssh_11/WEB-INF/showRegister.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssh_11/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssh_11/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssh_11/register.jsp" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,12 +418,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/register.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="352">
@@ -34,34 +432,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/java/utils/HibernateUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+            <state relative-caret-position="462">
+              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dao/UserDao.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/utils/HibernateUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Action/RegisterAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="198">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -76,15 +459,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/domain/Register.java">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/showRegister.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
-              <folding>
-                <element signature="e#506#507#0" expanded="true" />
-                <element signature="e#554#555#0" expanded="true" />
-                <element signature="e#594#595#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="418">
+              <caret line="19" column="39" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/a.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/struts.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="33" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -98,11 +494,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/struts.xml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/domain/User.hbm.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="33" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="33" />
+            <state relative-caret-position="242">
+              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -111,19 +507,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/Action/RegisterAction-addRegister-validation.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
-              <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dao/RegisterDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -187,6 +571,22 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ssh_11 Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ssh_11 Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
@@ -201,7 +601,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -226,12 +625,100 @@
               <item name="ssh_11" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssh_11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssh_11" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Action" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssh_11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssh_11" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssh_11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssh_11" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="Impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssh_11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssh_11" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssh_11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssh_11" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssh_11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssh_11" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssh_11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssh_11" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssh_11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssh_11" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="Action" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssh_11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssh_11" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssh_11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssh_11" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssh_11" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssh_11" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -425,6 +912,8 @@
       <updated>1571825134203</updated>
       <workItem from="1571825135578" duration="8446000" />
       <workItem from="1571908200706" duration="89000" />
+      <workItem from="1572432929707" duration="262000" />
+      <workItem from="1572433241807" duration="188000" />
     </task>
     <servers />
   </component>
@@ -440,12 +929,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8535000" />
+    <option name="totallyTimeSpent" value="8985000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.35321715" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3608742" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -455,7 +945,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4305949" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.43058568" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -471,7 +961,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32995737" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -490,50 +980,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entity/QueryResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/HibernateUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/test/UserDaoTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="748">
           <caret line="37" column="45" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/HibernateUtils.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/showRegister.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
-          <folding>
-            <element signature="n#style#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/Impl/RegisterDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#0#13#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -545,36 +997,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/a.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/domain/User.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/Action/RegisterAction-addRegister-validation" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/Action/RegisterAction-addRegister-validation.fxml" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/register.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -582,19 +1006,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Action/RegisterAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
+        <state relative-caret-position="594">
           <caret line="27" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -602,10 +1016,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/Impl/RegisterDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+        <state relative-caret-position="322">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#0#13#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/RegisterDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#0#9#1" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -621,6 +1060,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entity/QueryResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/HibernateUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/HibernateUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Action/RegisterAction-addRegister-validation.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/domain/Register.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
@@ -628,20 +1102,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao/RegisterDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/domain/User.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
-          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Action/RegisterAction-addRegister-validation.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+        <state relative-caret-position="440">
+          <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/showRegister.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="39" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/a.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -649,6 +1134,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="6" column="33" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
         </state>
       </provider>
     </entry>
