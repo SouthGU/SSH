@@ -1,7 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74e1814a-d62d-49db-a14c-84383b2202a5" name="Default Changelist" comment="" />
+    <list default="true" id="74e1814a-d62d-49db-a14c-84383b2202a5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../SSHNews/src/main/java/xgl/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSHNews/src/main/java/xgl/CategoryAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSHNews/src/main/java/xgl/HibernateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSHNews/src/main/java/xgl/News.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSHNews/src/main/java/xgl/NewsAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSHNews/src/main/java/xgl/ServiceCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSHNews/src/main/java/xgl/ServiceNews.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSHNews/src/main/resources/xgl/Category.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SSHNews/src/main/resources/xgl/News.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.readme.md.swp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh_11/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/target/classes/Action/RegisterAction-addRegister-validation.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/target/classes/Action/RegisterAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/target/classes/WEB-INF/a.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/target/classes/WEB-INF/showRegister.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/target/classes/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/target/classes/dao/Impl/RegisterDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/target/classes/dao/RegisterDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/target/classes/dao/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/target/classes/domain/Register.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/target/classes/domain/Register.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/target/classes/domain/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/target/classes/domain/User.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/target/classes/entity/QueryResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/target/classes/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/target/classes/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/target/classes/register.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/target/classes/struts.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/target/classes/utils/HibernateUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/target/classes/utils/HibernateUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/target/ssh_11.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/target/ssh_11/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/target/ssh_11/WEB-INF/a.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/target/ssh_11/WEB-INF/classes/Action/RegisterAction-addRegister-validation.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/target/ssh_11/WEB-INF/classes/Action/RegisterAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/target/ssh_11/WEB-INF/classes/WEB-INF/a.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/target/ssh_11/WEB-INF/classes/WEB-INF/showRegister.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/target/ssh_11/WEB-INF/classes/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/target/ssh_11/WEB-INF/classes/dao/Impl/RegisterDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/target/ssh_11/WEB-INF/classes/dao/RegisterDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/target/ssh_11/WEB-INF/classes/dao/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/target/ssh_11/WEB-INF/classes/domain/Register.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/target/ssh_11/WEB-INF/classes/domain/Register.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/target/ssh_11/WEB-INF/classes/domain/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/target/ssh_11/WEB-INF/classes/domain/User.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/target/ssh_11/WEB-INF/classes/entity/QueryResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/target/ssh_11/WEB-INF/classes/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/target/ssh_11/WEB-INF/classes/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/target/ssh_11/WEB-INF/classes/register.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/target/ssh_11/WEB-INF/classes/struts.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/target/ssh_11/WEB-INF/classes/utils/HibernateUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/target/ssh_11/WEB-INF/classes/utils/HibernateUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/target/ssh_11/WEB-INF/lib/FastInfoset-1.2.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/target/ssh_11/WEB-INF/lib/antlr-2.7.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/target/ssh_11/WEB-INF/lib/byte-buddy-1.9.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/target/ssh_11/WEB-INF/lib/classmate-1.3.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/target/ssh_11/WEB-INF/lib/commons-fileupload-1.3.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/target/ssh_11/WEB-INF/lib/commons-io-2.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/target/ssh_11/WEB-INF/lib/commons-lang3-3.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/target/ssh_11/WEB-INF/lib/dom4j-2.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/target/ssh_11/WEB-INF/lib/freemarker-2.3.26-incubating.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/target/ssh_11/WEB-INF/lib/hamcrest-core-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/target/ssh_11/WEB-INF/lib/hibernate-commons-annotations-5.1.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/target/ssh_11/WEB-INF/lib/hibernate-core-5.4.2.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/target/ssh_11/WEB-INF/lib/istack-commons-runtime-3.0.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/target/ssh_11/WEB-INF/lib/jandex-2.0.5.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/target/ssh_11/WEB-INF/lib/javassist-3.24.0-GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/target/ssh_11/WEB-INF/lib/javax.activation-api-1.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/target/ssh_11/WEB-INF/lib/javax.persistence-api-2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/target/ssh_11/WEB-INF/lib/jaxb-api-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/target/ssh_11/WEB-INF/lib/jaxb-runtime-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/target/ssh_11/WEB-INF/lib/jboss-logging-3.3.2.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/target/ssh_11/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/target/ssh_11/WEB-INF/lib/junit-4.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/target/ssh_11/WEB-INF/lib/log4j-api-2.9.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/target/ssh_11/WEB-INF/lib/mysql-connector-java-5.1.38.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/target/ssh_11/WEB-INF/lib/ognl-3.1.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/target/ssh_11/WEB-INF/lib/stax-ex-1.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/target/ssh_11/WEB-INF/lib/struts2-core-2.5.14.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/target/ssh_11/WEB-INF/lib/txw2-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/target/ssh_11/WEB-INF/showRegister.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/target/ssh_11/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/target/ssh_11/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/target/ssh_11/register.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_11/target/test-classes/test/UserDaoTest.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -171,7 +257,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -233,6 +318,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -292,16 +378,17 @@
       <workItem from="1571909841241" duration="98000" />
       <workItem from="1571930044925" duration="9396000" />
       <workItem from="1572969848792" duration="219000" />
+      <workItem from="1574864539187" duration="5000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9713000" />
+    <option name="totallyTimeSpent" value="9718000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25670242" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2600536" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -381,6 +468,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/domain/OrderItem.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/domain/Product.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -422,13 +516,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/domain/OrderItem.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
         </state>
       </provider>
     </entry>
