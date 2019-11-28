@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans  xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:aop="http://www.springframework.org/schema/aop"
+        xmlns:tx="http://www.springframework.org/schema/tx"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/tx
+        http://www.springframework.org/schema/tx/spring-tx.xsd
+        http://www.springframework.org/schema/aop
+	    http://www.springframework.org/schema/aop/spring-aop.xsd">
+    <!--<aop:aspectj-autoproxy/>-->
+    <!--<bean name="myInterceptor" class="aop.MyInterceptor"/>-->
+    <!--<bean name="loginService" class="serviceImp.LoginServiceImp"/>-->
+    <!--
+    创建spring bean 要指定scope,默认情况是singleton,
+     当校验多次时singleton情况下会形成一个共享单例，
+     即这个单一实例会被存储到单例缓存（singleton cache）中，
+     并且所有针对该bean的后续请求和引用都将返回被缓存的对象实例
+     因此第一次校验有效的情况。
+     改为prototype,则是向spring指明每次访问都会生成新的bean实例
+     彼此的操作不会受到影响
+    -->
+
+    <!--action层-->
+    <!--登录 等整合-->
+    <bean name="loginAction" class="action.LoginAction" scope="prototype">
+        <property name="adminService" ref="adminServiceImp"/>
+    </bean>
+    <!--新闻类型模块-->
+    <bean name="categoryAction" class="action.CategoryAction" scope="prototype">
+        <property name="adminService" ref="adminServiceImp"/>
+    </bean>
+    <!--新闻内容模块-->
+    <bean name="news" class="action.NewsAction" scope="prototype">
+        <property name="adminService" ref="adminServiceImp"/>
+    </bean>
+
+
+
+    <!--serivice层-->
+    <bean name="adminServiceImp" class="serviceImp.AdminServiceImp">
+        <property name="categoryDao" ref="categoryDaoImp"/>
+        <property name="newsDao" ref="newsDaoImp"/>
+        <property name="loginDao" ref="loginDaoImp"/>
+    </bean>
+
+    <!--dao层-->
+    <bean name="loginDaoImp" class="daoImp.LoginDaoImp">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+    <bean name="categoryDaoImp" class="daoImp.CategoryDaoImp">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+    <bean name="newsDaoImp" class="daoImp.NewsDaoImp">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+
+
+    <!--访问根目录里的jdbc.properties并将其封装成bean-->
+    <bean id="propertyConfigurer"
+          class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="location" value="classpath:jdbc.properties"/>
+    </bean>
+    <!-- 数据源的配置，使用C3P0连接池，用户名和密码需要根据实际情况配置 -->
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <property name="driverClass" value="${mysql.driverClassName}"></property>
+        <property name="jdbcUrl" value="${mysql.url}"></property>
+        <property name="user" value="${mysql.username}"></property>
+        <property name="password" value="${mysql.password}"></property>
+
+        <!-- 设置数据库连接池的最大连接数 -->
+        <property name="maxPoolSize">
+            <value>50</value>
+        </property>
+        <!-- 设置数据库连接池的最小连接数 -->
+        <property name="minPoolSize">
+            <value>5</value>
+        </property>
+        <!-- 设置数据库连接池的初始化连接数 -->
+        <property name="initialPoolSize">
+            <value>5</value>
+        </property>
+        <!-- 设置数据库连接池的连接最大空闲时间 -->
+        <property name="maxIdleTime">
+            <value>20</value>
+        </property>
+        <!-- c3p0缓存Statement的数量数 -->
+        <property name="maxStatements">
+            <value>50</value>
+        </property>
+        <!-- 当连接池里面的连接用完的时候,C3P0一下获取新的连接数 -->
+        <property name="acquireIncrement">
+            <value>20</value>
+        </property>
+    </bean>
+
+    <!-- hibernate 管理-->
+    <bean id="sessionFactory" class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
+    <!-- 引用上面设置的数据源 -->
+    <property name="dataSource">
+        <ref bean="dataSource"/>
+    </property>
+    <property name="hibernateProperties">
+    <props>
+    <prop key="hibernate.dialect">org.hibernate.dialect.MySQL5InnoDBDialect</prop>
+    <prop key="hibernate.autoReconnect">true</prop>
+    <prop key="hibernate.connection.autocommit">true</prop>
+    <prop key="hibernate.hbm2ddl.auto">update</prop>
+    <prop key="hibernate.show_sql">true</prop>
+    <prop key="hibernate.format_sql">true</prop>
+    <!-- 解决session关闭问题 -->
+    <prop key="hibernate.enable_lazy_load_no_trans">true</prop>
+        <prop key="hibernate.max_fetch_depth">3</prop>
+        <prop key="hibernate.connection.url"  >${mysql.url}</prop>
+        <prop key="hibernate.connection.driver_class">${mysql.driverClassName}</prop>
+    </props>
+    </property>
+    <!-- hibernate映射文件的引入 -->
+    <property name="mappingResources">
+            <list>
+                <value>bean/User.hbm.xml</value>
+                <value>bean/Category.hbm.xml</value>
+                <value>bean/News.hbm.xml</value>
+                <value>bean/User.hbm.xml</value>
+            </list>
+    </property>
+    </bean>
+    <!-- 配置事务管理器 -->
+    <bean id="transactionManager" class="org.springframework.orm.hibernate5.HibernateTransactionManager">
+        <property name="sessionFactory" ref="sessionFactory"></property>
+    </bean>
+
+    <!-- 配置hibernateTemplate -->
+    <bean id="hibernateTemplate" class="org.springframework.orm.hibernate5.HibernateTemplate">
+        <property name="sessionFactory" ref="sessionFactory"></property>
+    </bean>
+
+    <tx:annotation-driven transaction-manager="transactionManager"/>
+
+</beans>
