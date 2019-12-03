@@ -35,7 +35,8 @@ public class CategoryDaoImp implements CategoryDao {
     //查询指定id的新闻类型
     @Override
     public Category getCategoryByid(int id) {
-        Category category = (Category) sessionFactory.getCurrentSession().createQuery("from Category where id = :id ")
+        Category category = (Category) sessionFactory.getCurrentSession()
+                .createQuery("from Category where id = :id ")
                 .setParameter("id",id).uniqueResult();
         return category;
     }

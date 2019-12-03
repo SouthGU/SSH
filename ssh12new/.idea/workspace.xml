@@ -7,81 +7,77 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c57c4b0-1482-4695-b854-4c4410566be8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ssh12new2/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssh12new2/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssh12new2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssh12new2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssh12new2/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssh12new2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssh12new2/src/main/java/action/CategoryAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssh12new2/src/main/java/action/LoginAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssh12new2/src/main/java/action/NewsAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssh12new2/src/main/java/bean/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssh12new2/src/main/java/bean/News.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssh12new2/src/main/java/bean/PageBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssh12new2/src/main/java/bean/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssh12new2/src/main/java/dao/CategoryDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssh12new2/src/main/java/dao/LoginDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssh12new2/src/main/java/dao/NewsDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssh12new2/src/main/java/daoImp/CategoryDaoImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssh12new2/src/main/java/daoImp/LoginDaoImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssh12new2/src/main/java/daoImp/NewsDaoImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssh12new2/src/main/java/service/AdminService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssh12new2/src/main/java/serviceImp/AdminServiceImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssh12new2/src/main/resources/Error.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssh12new2/src/main/resources/action/LoginAction-validation.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssh12new2/src/main/resources/bean/Category.hbm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssh12new2/src/main/resources/bean/News.hbm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssh12new2/src/main/resources/bean/User.hbm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssh12new2/src/main/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssh12new2/src/main/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssh12new2/src/main/resources/message_en_US.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssh12new2/src/main/resources/message_zh_CN.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssh12new2/src/main/resources/spring-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssh12new2/src/main/resources/struts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssh12new2/src/main/webapp/addCategory.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssh12new2/src/main/webapp/addNews.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssh12new2/src/main/webapp/admin.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssh12new2/src/main/webapp/adminCenter.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssh12new2/src/main/webapp/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssh12new2/src/main/webapp/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssh12new2/src/main/webapp/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssh12new2/src/main/webapp/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssh12new2/src/main/webapp/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssh12new2/src/main/webapp/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssh12new2/src/main/webapp/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssh12new2/src/main/webapp/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssh12new2/src/main/webapp/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssh12new2/src/main/webapp/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssh12new2/src/main/webapp/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssh12new2/src/main/webapp/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssh12new2/src/main/webapp/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssh12new2/src/main/webapp/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssh12new2/src/main/webapp/js/Struts-js.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssh12new2/src/main/webapp/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssh12new2/src/main/webapp/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssh12new2/src/main/webapp/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssh12new2/src/main/webapp/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssh12new2/src/main/webapp/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssh12new2/src/main/webapp/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssh12new2/src/main/webapp/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssh12new2/src/main/webapp/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssh12new2/src/main/webapp/js/jquery-3.1.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssh12new2/src/main/webapp/js/jquery-3.1.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssh12new2/src/main/webapp/js/jquery-3.3.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssh12new2/src/main/webapp/js/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssh12new2/src/main/webapp/listCategory.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssh12new2/src/main/webapp/listNews.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssh12new2/src/main/webapp/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssh12new2/src/main/webapp/newContent.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssh12new2/src/main/webapp/test.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssh12new2/src/main/webapp/updateCategory.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssh12new2/src/main/webapp/updateNews.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssh12new2/src/main/webapp/welcome.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ssh12new2/ssh12new2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xglssh/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xglssh/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xglssh/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/java/action_xgl/CategoryAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/java/action_xgl/LoginAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/java/action_xgl/NewsAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/java/bean_xgl/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/java/bean_xgl/News.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/java/bean_xgl/PageBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/java/bean_xgl/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/java/daoImp_xgl/CategoryDaoImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/java/daoImp_xgl/LoginDaoImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/java/daoImp_xgl/NewsDaoImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/java/dao_xgl/CategoryDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/java/dao_xgl/LoginDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/java/dao_xgl/NewsDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/java/serviceImp_xgl/AdminServiceImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/java/service_xgl/AdminService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/resources/bean_xgl/Category.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/resources/bean_xgl/News.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/resources/bean_xgl/User.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/resources/spring-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/resources/struts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/addCategory.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/addNews.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/admin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/adminCenter.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/js/Struts-js.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/js/jquery-3.1.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/js/jquery-3.1.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/listCategory.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/listNews.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/newContent.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/test.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/updateCategory.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/updateNews.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssh12new.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssh12new.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh12new2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh12new2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh12new2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh12new2/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh12new2/src/main/java/action/NewsAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh12new2/src/main/java/action/NewsAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh12new2/src/main/java/daoImp/CategoryDaoImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh12new2/src/main/java/daoImp/CategoryDaoImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh12new2/src/main/java/daoImp/NewsDaoImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh12new2/src/main/java/daoImp/NewsDaoImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh12new2/src/main/resources/bean/Category.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh12new2/src/main/resources/bean/Category.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh12new2/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh12new2/src/main/resources/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh12new2/src/main/resources/spring-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh12new2/src/main/resources/spring-config.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -95,12 +91,12 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="154">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -117,7 +113,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
+            <state relative-caret-position="506">
               <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
             </state>
           </provider>
@@ -127,10 +123,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/webapp/newContent.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="308">
-              <caret line="14" column="44" lean-forward="true" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
-              <folding>
-                <element signature="e#332#338#0#HTML" expanded="true" />
-              </folding>
+              <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -143,8 +136,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/second.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1060">
-              <caret line="62" column="7" lean-forward="true" selection-start-line="62" selection-start-column="7" selection-end-line="62" selection-end-column="7" />
+            <state relative-caret-position="1364">
+              <caret line="62" column="7" selection-start-line="62" selection-start-column="7" selection-end-line="62" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -161,8 +154,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/updateCategory.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+            <state relative-caret-position="220">
+              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -224,7 +217,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1165" />
@@ -238,7 +231,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -291,6 +283,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -298,7 +291,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../xglssh" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -418,17 +411,18 @@
       <workItem from="1574929975103" duration="6906000" />
       <workItem from="1574948305591" duration="116000" />
       <workItem from="1574953399885" duration="3480000" />
+      <workItem from="1575367657990" duration="116000" />
+      <workItem from="1575377530196" duration="383000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11141000" />
+    <option name="totallyTimeSpent" value="11640000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20978552" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17120343" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -736,12 +730,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/message_en_US.properties">
-      <provider selected="true" editor-type-id="text-editor" />
       <provider editor-type-id="ResourceBundle" />
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/message_zh_CN.properties">
-      <provider selected="true" editor-type-id="text-editor" />
       <provider editor-type-id="ResourceBundle" />
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/addCategory.jsp">
       <provider selected="true" editor-type-id="text-editor" />
@@ -764,14 +758,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/listNews.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="33" />
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
@@ -784,7 +771,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
+        <state relative-caret-position="506">
           <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
         </state>
       </provider>
@@ -792,10 +779,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/newContent.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
-          <caret line="14" column="44" lean-forward="true" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
-          <folding>
-            <element signature="e#332#338#0#HTML" expanded="true" />
-          </folding>
+          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -804,20 +788,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/second.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1060">
-          <caret line="62" column="7" lean-forward="true" selection-start-line="62" selection-start-column="7" selection-end-line="62" selection-end-column="7" />
+        <state relative-caret-position="1364">
+          <caret line="62" column="7" selection-start-line="62" selection-start-column="7" selection-end-line="62" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/updateCategory.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        <state relative-caret-position="220">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/updateNews.jsp">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/listNews.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="33" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/test.jsp">
       <provider selected="true" editor-type-id="text-editor">

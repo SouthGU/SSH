@@ -13,6 +13,8 @@ import java.util.List;
 @Data
 public class NewsDaoImp implements NewsDao {
     public SessionFactory sessionFactory;
+
+
     @Override
     public void addNews(News news) {
         sessionFactory.getCurrentSession().save(news);
@@ -58,6 +60,7 @@ public class NewsDaoImp implements NewsDao {
         return news;
     }
 
+    //模糊查询
     @Override
     public List<News> findNewsByCategoryName(String name) {
         List<News> news = sessionFactory.getCurrentSession()

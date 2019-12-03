@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- 数据库表与实体类的映射配置 -->
+<hibernate-mapping>
+    <!-- name:实体类的全路径；table:数据库中的表名 -->
+    <class name="bean_xgl.Category" table="category">
+        <!--
+            id：主键
+            property：一般属性
+            name：实体类中的属性名；
+            column：数据库表的字段名，若不配置则默认与属性名相同
+        -->
+        <id name="id" column="id">
+            <!--主键自增策略-->
+            <generator class="native"></generator>
+        </id>
+        <property name="categoryName" column="category_name"></property>
+        <!--
+            set - name：自家的映射键
+            column：多方外键
+         -->
+        <set name="newses" inverse="true" cascade="save-update">
+            <key column="category_id"/>
+            <one-to-many class="bean_xgl.News"/>
+        </set>
+    </class>
+</hibernate-mapping>

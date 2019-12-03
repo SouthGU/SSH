@@ -35,6 +35,7 @@ public class NewsAction extends ActionSupport implements ModelDriven {
         return news;
     }
 
+    //添加新闻
     public String addNews(){
         if (news.getTitle().isEmpty()||category_id==0
                 ||news.getContent().isEmpty()|| news.getSource().isEmpty()){
@@ -51,13 +52,14 @@ public class NewsAction extends ActionSupport implements ModelDriven {
         }
     }
 
+    //查出所有新闻类型
     public String listCategoryName(){
         //以list形式输出所有新闻类型
         categories = adminService.listCategory();
         return "listCategoryName";
     }
 
-
+    //显示新闻
     public String listNews(){
         //newsList = adminService.listNews();
         //查询所有的新闻类型
@@ -74,12 +76,14 @@ public class NewsAction extends ActionSupport implements ModelDriven {
         return "list";
     }
 
+    //更新新闻
     public String updateNews(){
         Category c = adminService.getCategoryByid(category_id);
         adminService.updateNews(news.getTitle(),news.getContent(),news.getSource(),c,news.getId());
         return SUCCESS;
     }
 
+    //由新闻ID获取新闻
     public String getNewsByid(){
         int categoryid=(adminService.getNewsByid(id).getCategory()).getId();
         Category c = adminService.getCategoryByid(categoryid);
@@ -88,6 +92,7 @@ public class NewsAction extends ActionSupport implements ModelDriven {
         return "update";
     }
 
+    //获取新闻
     public String deleteNews(){
         news = adminService.getNewsByid(id);
         adminService.deleteNews(news);
