@@ -3,7 +3,7 @@
 <%@taglib prefix="s" uri="/struts-tags" %>
 <html>
 <head>
-    <title>百度小后台</title>
+    <title>左侧边</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>

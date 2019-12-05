@@ -22,6 +22,7 @@
         </div>
 
         <div class="col-md-8 offset-3">
+<%--            将category_id传递到action，然后获取新闻类型--%>
             <select name="category_id">
                 <option value="0" selected>--请选择新闻类型--</option>
                 <s:iterator value="categories" var="Category" status="stu">
@@ -48,6 +49,7 @@
         <s:iterator value="pageBean.list" var="newsList" status="stu">
             <tr align="center">
                     <td><s:property value="#stu.count"/> </td>
+<%--                    查看新闻的具体内容，将新闻ID传递给action--%>
                     <td ><s:a href="/New/news_findNewsContent.action?id=%{#newsList.id}"><s:property value="#newsList.title"/></s:a> </td>
                     <td ><s:property value="#newsList.issueTime"/> </td>
                     <td ><s:property value="#newsList.category.categoryName"/> </td>
@@ -68,11 +70,10 @@
                     <a href="/New/news_listNews.action?page=<s:property value="pageBean.totalPage"/>">尾页</a>
                 </s:if>
             </td>
-
-
         <tr align="center">
     </table>
             <br/>
+            <%--定义错误信息--%>
             <h3><s:property value="error"/></h3>
         </div>
     </s:form>

@@ -1,4 +1,3 @@
-
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@taglib prefix="s" uri="/struts-tags" %>
 <html>
@@ -33,6 +32,7 @@
         </s:iterator>
     </table>
     <br/>
+<%--定义错误提示--%>
     <h3><s:property value="error"/></h3>
             </div>
         </div>

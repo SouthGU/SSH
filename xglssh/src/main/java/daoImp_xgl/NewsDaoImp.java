@@ -7,7 +7,6 @@ import lombok.Data;
 import org.hibernate.SessionFactory;
 import org.hibernate.query.Query;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
@@ -60,7 +59,7 @@ public class NewsDaoImp implements NewsDao {
         sessionFactory.getCurrentSession().delete(news);
     }
 
-    @Override
+    //设置总记录数
     public int findcount() {
         String hql = "select count(*)  from News ";
         Query query = sessionFactory.getCurrentSession().createQuery(hql);
@@ -76,11 +75,11 @@ public class NewsDaoImp implements NewsDao {
         return count;
     }
 
-    @Override
+//    由新闻类型分页查询新闻列表，以开始数据，每页条数，新闻类型为参数。返回新闻列表
     public List<News> findNewsByPageWithCid(int begin, int limit, Category category) {
         List<News> news = sessionFactory.getCurrentSession()
                 .createQuery("from News n where n.category= :category order by n.issueTime desc")
-                .setParameter("category",category)
+                .setParameter("category",category)//由新闻类型查询
                 .setFirstResult(begin)  //设定从哪一个对象开始检索，
                 // 参数firstResukt表示这个对象在查询结果中的索引位置，
                 // 索引位置的起始值为0，默认情况下，Query从查询结果中的第一个对象开始检索。

@@ -7,77 +7,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23c36fe0-fc33-4937-936a-777bddbb7653" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/action_xgl/CategoryAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/action_xgl/LoginAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/action_xgl/NewsAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bean_xgl/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bean_xgl/News.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bean_xgl/PageBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bean_xgl/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/daoImp_xgl/CategoryDaoImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/daoImp_xgl/LoginDaoImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/daoImp_xgl/NewsDaoImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao_xgl/CategoryDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao_xgl/LoginDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao_xgl/NewsDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/serviceImp_xgl/AdminServiceImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service_xgl/AdminService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bean_xgl/Category.hbm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bean_xgl/News.hbm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bean_xgl/User.hbm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/spring-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/struts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/addCategory.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/addNews.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/adminCenter.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/Struts-js.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-3.1.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-3.1.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-3.3.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/listCategory.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/listNews.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/newContent.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/test.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/updateCategory.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/updateNews.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ssh12new/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh12new/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ssh12new2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh12new2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ssh12new2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh12new2/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ssh12new2/src/main/java/action/NewsAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh12new2/src/main/java/action/NewsAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ssh12new2/src/main/java/daoImp/CategoryDaoImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh12new2/src/main/java/daoImp/CategoryDaoImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ssh12new2/src/main/java/daoImp/NewsDaoImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh12new2/src/main/java/daoImp/NewsDaoImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ssh12new2/src/main/resources/bean/Category.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh12new2/src/main/resources/bean/Category.hbm.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ssh12new2/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh12new2/src/main/resources/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ssh12new2/src/main/resources/spring-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh12new2/src/main/resources/spring-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/action_xgl/NewsAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/action_xgl/NewsAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/daoImp_xgl/NewsDaoImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/daoImp_xgl/NewsDaoImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao_xgl/NewsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao_xgl/NewsDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/serviceImp_xgl/AdminServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/serviceImp_xgl/AdminServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service_xgl/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service_xgl/AdminService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/addNews.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/addNews.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/adminCenter.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/adminCenter.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/listCategory.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/listCategory.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/listNews.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/listNews.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/action_xgl/NewsAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/action_xgl/NewsAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/serviceImp_xgl/AdminServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/serviceImp_xgl/AdminServiceImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/xglssh.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/xglssh.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/xglssh/WEB-INF/classes/action_xgl/NewsAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/xglssh/WEB-INF/classes/action_xgl/NewsAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/xglssh/WEB-INF/classes/serviceImp_xgl/AdminServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/xglssh/WEB-INF/classes/serviceImp_xgl/AdminServiceImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/xglssh/addNews.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/xglssh/addNews.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/xglssh/admin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/xglssh/admin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/xglssh/adminCenter.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/xglssh/adminCenter.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/xglssh/listCategory.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/xglssh/listCategory.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/xglssh/listNews.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/xglssh/listNews.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -91,12 +41,12 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/action_xgl/CategoryAction.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/serviceImp_xgl/AdminServiceImp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="52" column="30" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="30" />
+            <state relative-caret-position="-807">
+              <caret line="99" column="34" selection-start-line="99" selection-start-column="23" selection-end-line="99" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -104,11 +54,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/addNews.jsp">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/bean_xgl/Category.hbm.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="59" column="19" lean-forward="true" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
+            <state relative-caret-position="484">
+              <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/bean_xgl/News.hbm.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="14" column="47" lean-forward="true" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="449">
+              <caret line="21" selection-start-line="21" selection-end-line="158" />
+              <folding>
+                <element signature="n#dependencies#0;n#project#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -116,17 +87,69 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/action_xgl/NewsAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="924">
-              <caret line="61" column="32" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="32" />
+            <state relative-caret-position="682">
+              <caret line="96" selection-start-line="96" selection-end-line="100" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/struts.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/daoImp_xgl/LoginDaoImp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="792">
-              <caret line="36" column="62" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="62" />
+            <state relative-caret-position="251">
+              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/addNews.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-535">
+              <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/service_xgl/AdminService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="858">
+              <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/daoImp_xgl/NewsDaoImp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="924">
+              <caret line="44" column="38" lean-forward="true" selection-start-line="44" selection-start-column="38" selection-end-line="44" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#0#32#0" expanded="true" />
+                <element signature="e#0#105#1" expanded="true" />
+                <element signature="e#0#28#0" expanded="true" />
+                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#62#1" expanded="true" />
+                <element signature="e#0#65#0" expanded="true" />
+                <element signature="e#0#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dao_xgl/NewsDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="516">
+              <caret line="34" column="52" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -146,19 +169,31 @@
       <find>getCategoryByid</find>
       <find>listNewsByCategory</find>
       <find>findNewsByCategoryId</find>
-      <find>listCategory</find>
       <find>session</find>
       <find>Category</find>
-      <find>findNewsByPageandCid</find>
-      <find>listNews</find>
       <find>list</find>
       <find>categoryAction</find>
       <find>news</find>
-      <find>categoryName</find>
       <find>updaterror</find>
-      <find>adderror</find>
       <find>listCategoryName</find>
       <find>deleteCategory</find>
+      <find>findNewsByPageWithCid</find>
+      <find>findNewsByPageandCid</find>
+      <find>findNewsContent</find>
+      <find>findNewsByPage</find>
+      <find>getNewsByid</find>
+      <find>content</find>
+      <find>newC</find>
+      <find>test</find>
+      <find>listCategory</find>
+      <find>addCategory</find>
+      <find>listNews</find>
+      <find>categoryName</find>
+      <find>findNewsByCategoryName</find>
+      <find>该类型已经绑定数据，请解除数据后再删除</find>
+      <find>error</find>
+      <find>有选项必须填写</find>
+      <find>adderror</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -177,26 +212,27 @@
         <option value="$PROJECT_DIR$/src/main/java/dao_xgl/CategoryDao.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/admin.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
-        <option value="$PROJECT_DIR$/src/main/webapp/adminCenter.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/listCategory.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/bean_xgl/News.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/service_xgl/AdminService.java" />
         <option value="$PROJECT_DIR$/src/main/java/bean_xgl/PageBean.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dao_xgl/NewsDao.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/addCategory.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/struts.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/spring-config.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/action_xgl/NewsAction.java" />
         <option value="$PROJECT_DIR$/src/main/java/daoImp_xgl/CategoryDaoImp.java" />
         <option value="$PROJECT_DIR$/src/main/java/daoImp_xgl/LoginDaoImp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/daoImp_xgl/NewsDaoImp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/serviceImp_xgl/AdminServiceImp.java" />
         <option value="$PROJECT_DIR$/src/main/java/action_xgl/LoginAction.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/addNews.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/action_xgl/CategoryAction.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/listCategory.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/serviceImp_xgl/AdminServiceImp.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/listNews.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/admin.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/adminCenter.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/addNews.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/action_xgl/NewsAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/daoImp_xgl/NewsDaoImp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service_xgl/AdminService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao_xgl/NewsDao.java" />
       </list>
     </option>
   </component>
@@ -227,10 +263,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1165" />
-    <option name="height" value="705" />
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
+    <option name="width" value="1167" />
+    <option name="height" value="707" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -240,8 +276,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -265,12 +299,84 @@
               <item name="xglssh" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xglssh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xglssh" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="action_xgl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xglssh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xglssh" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bean_xgl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xglssh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xglssh" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dao_xgl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xglssh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xglssh" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="daoImp_xgl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xglssh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xglssh" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service_xgl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xglssh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xglssh" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="serviceImp_xgl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xglssh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xglssh" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xglssh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xglssh" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="bean_xgl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xglssh" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xglssh" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -395,16 +501,20 @@
       <workItem from="1575376519456" duration="1173000" />
       <workItem from="1575377715455" duration="3831000" />
       <workItem from="1575384519156" duration="758000" />
+      <workItem from="1575431585193" duration="3650000" />
+      <workItem from="1575446296278" duration="7920000" />
+      <workItem from="1575459695615" duration="90000" />
+      <workItem from="1575460465059" duration="2096000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23194000" />
+    <option name="totallyTimeSpent" value="36950000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-6" y="-6" width="1456" height="876" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2680965" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24068768" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -414,7 +524,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.46458924" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25202155" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -443,30 +553,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" selection-start-line="21" selection-end-line="158" />
-          <folding>
-            <element signature="n#dependencies#0;n#project#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/bean_xgl/Category.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/bean_xgl/News.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="47" lean-forward="true" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/bean_xgl/User.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -509,101 +595,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/admin.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-58">
-          <caret line="20" column="56" lean-forward="true" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="56" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#3;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/updateCategory.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/adminCenter.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/listNews.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/newContent.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="65" selection-start-column="65" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bean_xgl/PageBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bean_xgl/News.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/bean_xgl/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dao_xgl/NewsDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="34" column="52" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="49" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/updateNews.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/test.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-594" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/addCategory.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="56" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="56" />
         </state>
       </provider>
     </entry>
@@ -628,23 +623,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/bean_xgl/Category.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/daoImp_xgl/CategoryDaoImp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="263">
@@ -653,43 +631,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#0#13#0" expanded="true" />
             <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/daoImp_xgl/LoginDaoImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/daoImp_xgl/NewsDaoImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#0#32#0" expanded="true" />
-            <element signature="e#0#105#1" expanded="true" />
-            <element signature="e#0#28#0" expanded="true" />
-            <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#0#62#1" expanded="true" />
-            <element signature="e#0#65#0" expanded="true" />
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service_xgl/AdminService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1202">
-          <caret line="56" column="38" selection-start-line="56" selection-start-column="38" selection-end-line="56" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -714,27 +655,185 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/listCategory.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/bean_xgl/Category.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="48" column="68" selection-start-line="48" selection-start-column="54" selection-end-line="48" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/serviceImp_xgl/AdminServiceImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+        <state relative-caret-position="418">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/action_xgl/CategoryAction.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/bean_xgl/News.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/newContent.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/test.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/updateCategory.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="65" selection-start-column="65" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/bean_xgl/PageBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/adminCenter.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/updateNews.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
-          <caret line="52" column="30" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="30" />
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/listCategory.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="22" column="52" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/admin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="34" column="24" lean-forward="true" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/listNews.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/action_xgl/CategoryAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="91" column="25" selection-start-line="91" selection-start-column="20" selection-end-line="91" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/addCategory.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="48" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/struts.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="75" column="55" selection-start-line="75" selection-start-column="55" selection-end-line="75" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-638">
+          <caret line="70" column="32" lean-forward="true" selection-start-line="70" selection-start-column="32" selection-end-line="70" selection-end-column="32" />
+          <folding>
+            <element signature="e#2971#2985#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service_xgl/AdminService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/bean_xgl/Category.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/bean_xgl/News.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="47" lean-forward="true" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="21" selection-start-line="21" selection-end-line="158" />
+          <folding>
+            <element signature="n#dependencies#0;n#project#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/addNews.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-535">
+          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/serviceImp_xgl/AdminServiceImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-807">
+          <caret line="99" column="34" selection-start-line="99" selection-start-column="23" selection-end-line="99" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -743,22 +842,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/action_xgl/NewsAction.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="96" selection-start-line="96" selection-end-line="100" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/daoImp_xgl/LoginDaoImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/daoImp_xgl/NewsDaoImp.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="924">
-          <caret line="61" column="32" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="32" />
+          <caret line="44" column="38" lean-forward="true" selection-start-line="44" selection-start-column="38" selection-end-line="44" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#0#105#1" expanded="true" />
+            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#62#1" expanded="true" />
+            <element signature="e#0#65#0" expanded="true" />
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/struts.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao_xgl/NewsDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="36" column="62" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/addNews.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="59" column="19" lean-forward="true" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
+        <state relative-caret-position="516">
+          <caret line="34" column="52" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
         </state>
       </provider>
     </entry>

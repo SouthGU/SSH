@@ -52,6 +52,7 @@ public interface AdminService {
     //删除新闻
     void deleteNews(News news);
 
+        //需要页码和新闻类型
     PageBean findNewsByPageandCid(int page, Category c);
 
     PageBean findNewsByPage(int page);

@@ -2,8 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d65f7ab7-312f-42be-9e8b-183a2a077f1f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../ssh_09/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh_09/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcompent/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcompent/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcompent/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SpringText.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_13/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh_13/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/PersonDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/PersonDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/PersonDaoImpl2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/PersonDaoImpl2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/PersonServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/PersonServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/SpringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/SpringTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/PersonDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/PersonDaoImpl2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/PersonDaoImpl2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/PersonServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/PersonServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/SpringTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/SpringTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xglssh/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../xglssh/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xglssh/src/main/java/action_xgl/NewsAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../xglssh/src/main/java/action_xgl/NewsAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xglssh/src/main/java/daoImp_xgl/NewsDaoImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../xglssh/src/main/java/daoImp_xgl/NewsDaoImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xglssh/src/main/java/serviceImp_xgl/AdminServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../xglssh/src/main/java/serviceImp_xgl/AdminServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xglssh/src/main/java/service_xgl/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../xglssh/src/main/java/service_xgl/AdminService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xglssh/src/main/webapp/addNews.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/addNews.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xglssh/src/main/webapp/admin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/admin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xglssh/src/main/webapp/adminCenter.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/adminCenter.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xglssh/src/main/webapp/listCategory.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/listCategory.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xglssh/src/main/webapp/listNews.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/listNews.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xglssh/target/classes/action_xgl/NewsAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../xglssh/target/classes/action_xgl/NewsAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xglssh/target/classes/daoImp_xgl/NewsDaoImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../xglssh/target/classes/daoImp_xgl/NewsDaoImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xglssh/target/classes/serviceImp_xgl/AdminServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../xglssh/target/classes/serviceImp_xgl/AdminServiceImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xglssh/target/xglssh.war" beforeDir="false" afterPath="$PROJECT_DIR$/../xglssh/target/xglssh.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xglssh/target/xglssh/WEB-INF/classes/action_xgl/NewsAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../xglssh/target/xglssh/WEB-INF/classes/action_xgl/NewsAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xglssh/target/xglssh/WEB-INF/classes/daoImp_xgl/NewsDaoImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../xglssh/target/xglssh/WEB-INF/classes/daoImp_xgl/NewsDaoImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xglssh/target/xglssh/WEB-INF/classes/serviceImp_xgl/AdminServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../xglssh/target/xglssh/WEB-INF/classes/serviceImp_xgl/AdminServiceImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xglssh/target/xglssh/addNews.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../xglssh/target/xglssh/addNews.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xglssh/target/xglssh/admin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../xglssh/target/xglssh/admin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xglssh/target/xglssh/adminCenter.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../xglssh/target/xglssh/adminCenter.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xglssh/target/xglssh/listCategory.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../xglssh/target/xglssh/listCategory.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xglssh/target/xglssh/listNews.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../xglssh/target/xglssh/listNews.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -14,88 +51,39 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/PersonServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
+            <state relative-caret-position="97">
+              <caret line="17" column="30" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/SpringText.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-48">
+              <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/SpringTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/com/Person.hbm.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="23" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/PersonDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/PersonDaoImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/PersonService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/PersonServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="141">
+              <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -106,33 +94,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/PersonDaoImpl2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="15" column="78" selection-start-line="15" selection-start-column="78" selection-end-line="15" selection-end-column="78" />
+            <state relative-caret-position="194">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#583#584#0" expanded="true" />
-                <element signature="e#642#643#0" expanded="true" />
-                <element signature="e#689#690#0" expanded="true" />
-                <element signature="e#742#743#0" expanded="true" />
+                <element signature="e#0#11#1" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/Person.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/PersonDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-              <folding>
-                <element signature="e#211#212#0" expanded="true" />
-                <element signature="e#248#249#0" expanded="true" />
-                <element signature="e#276#277#0" expanded="true" />
-                <element signature="e#307#308#0" expanded="true" />
-                <element signature="e#334#335#0" expanded="true" />
-                <element signature="e#374#375#0" expanded="true" />
-                <element signature="e#406#407#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="22">
+              <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -146,22 +122,28 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>personService</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/Person.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/PersonDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/PersonService.java" />
         <option value="$PROJECT_DIR$/src/main/resources/com/Person.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/PersonService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/PersonDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SpringText.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/PersonServiceImpl.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/PersonDaoImpl2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/SpringTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/SpringTest.java" />
       </list>
     </option>
   </component>
@@ -172,12 +154,17 @@
         <option name="userSettingsFile" value="D:\soft\Maven\apache-maven-3.6.1\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-13" />
-    <option name="y" value="-13" />
-    <option name="width" value="1823" />
-    <option name="height" value="1098" />
+    <option name="x" value="-20" />
+    <option name="y" value="-20" />
+    <option name="width" value="2280" />
+    <option name="height" value="1375" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -185,6 +172,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -233,12 +222,23 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ssh_14" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssh_14" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssh_14" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssh_14" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -265,7 +265,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.SpringTest">
     <configuration name="SpringTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.SpringTest" />
       <module name="ssh_14" />
@@ -279,9 +279,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringText.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ssh_14" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SpringText" />
+      <option name="METHOD_NAME" value="add" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.SpringTest" />
+        <item itemvalue="JUnit.SpringText.add" />
       </list>
     </recent_temporary>
   </component>
@@ -297,16 +308,53 @@
       <updated>1571898298140</updated>
       <workItem from="1571898303989" duration="4590000" />
       <workItem from="1573039135632" duration="155000" />
+      <workItem from="1575466330750" duration="3969000" />
+      <workItem from="1575470877058" duration="5000" />
+      <workItem from="1575470891917" duration="134000" />
+      <workItem from="1575471393758" duration="1309000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="SpringText_add - 2019.12.04 at 22h 41m 20s.xml">
+      <configuration name="SpringText.add" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringText_add - 2019.12.04 at 22h 44m 50s.xml">
+      <configuration name="SpringText.add" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringText_add - 2019.12.04 at 22h 50m 01s.xml">
+      <configuration name="SpringText.add" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringText_add - 2019.12.04 at 22h 59m 36s.xml">
+      <configuration name="SpringText.add" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringText_add - 2019.12.04 at 23h 00m 14s.xml">
+      <configuration name="SpringText.add" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringText_add - 2019.12.04 at 23h 03m 30s.xml">
+      <configuration name="SpringText.add" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringText_add - 2019.12.04 at 23h 05m 40s.xml">
+      <configuration name="SpringText.add" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringText_add - 2019.12.04 at 23h 05m 56s.xml">
+      <configuration name="SpringText.add" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringText_add - 2019.12.04 at 23h 13m 45s.xml">
+      <configuration name="SpringText.add" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringText_add - 2019.12.04 at 23h 13m 59s.xml">
+      <configuration name="SpringText.add" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4745000" />
+    <option name="totallyTimeSpent" value="10162000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24093817" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2386059" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -315,7 +363,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36685553" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -324,7 +372,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32577905" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -356,71 +404,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/Person.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/PersonDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/PersonDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/PersonService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/PersonServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/PersonDaoImpl2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="15" column="78" selection-start-line="15" selection-start-column="78" selection-end-line="15" selection-end-column="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#583#584#0" expanded="true" />
-            <element signature="e#642#643#0" expanded="true" />
-            <element signature="e#689#690#0" expanded="true" />
-            <element signature="e#742#743#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/Person.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -437,20 +420,92 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/SpringTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/PersonDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+        <state relative-caret-position="286">
+          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/Person.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/PersonService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ssh_14.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="41" column="20" lean-forward="true" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        <state relative-caret-position="165">
+          <caret line="59" column="45" lean-forward="true" selection-start-line="59" selection-start-column="45" selection-end-line="59" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/PersonDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SpringText.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-48">
+          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/PersonDaoImpl2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#0#11#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/PersonServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/SpringTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

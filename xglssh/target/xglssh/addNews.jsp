@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
+
 <body>
 <div id="section">
     <div class="container">
@@ -51,6 +52,7 @@
                     </table>
                 </s:form>
                 <br/>
+<%--                定义错误提示--%>
                 <h3><s:property value="error"/></h3>
             </div>
         </div>

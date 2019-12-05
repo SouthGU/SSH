@@ -105,7 +105,8 @@ public class AdminServiceImp implements AdminService {
         newsDao.deleteNews(news);
     }
 
-    @Override
+
+    //需要页码和新闻类型
     public PageBean<News> findNewsByPageandCid(int page, Category category) {
         //业务层查询新闻数据带分页的方法
         PageBean<News> pageBean = new PageBean<News>();
@@ -120,15 +121,18 @@ public class AdminServiceImp implements AdminService {
         pageBean.setTotalCount(totalCount);
         //设置总页数
         int totalPage = 0;
+        //如果总记录数除以每页条数为0，那么就恰好为页数，否则为页数+1
         if(totalCount % limit ==0){
             totalPage = totalCount / limit;
         }else {
             totalPage = totalCount / limit + 1;
         }
         pageBean.setTotalCount(totalPage);
-        //设置显示到页面的数据的集合
+        //设置显示到页面的数据的集合，得到从第几条数据开始
         int begin = (page - 1 ) * limit;
+        //将开始数据，每页条数，新闻类型作为参数
         List<News> list = newsDao.findNewsByPageWithCid(begin,limit,category);
+        //将新闻列表放入Pagebean的List<News>中
         pageBean.setList(list);
         return pageBean;
     }

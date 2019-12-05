@@ -5,7 +5,7 @@
 <head>
     <title>管理员中心页面</title>
     <div class="container"><div class="row"><div class="col-md-4 offset-4" style="padding-left: 200px">
-        <frameset cols="28%,65%">
+        <frameset cols="25%,70%,5%">
             <frame src="admin.jsp" frameborder="0">
             <frame src="index.jsp" name="content" frameborder="0">
         </frameset></div> </div></div>

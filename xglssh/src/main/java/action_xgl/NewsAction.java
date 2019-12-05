@@ -9,8 +9,6 @@ import com.opensymphony.xwork2.ModelDriven;
 
 import lombok.Getter;
 import lombok.Setter;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
 import service_xgl.AdminService;
 
 
@@ -25,7 +23,7 @@ public class NewsAction extends ActionSupport implements ModelDriven {
     public News news;
     public int id,page;
     public String error,title,start,end;
-    public int category_id;//新闻类型id
+    public int category_id;//新闻类型id  --> 外键
     public List<Map<String,Object>> newsList,newsList1;
     public List<Category> categories;
     public List<News> newses;
@@ -46,7 +44,7 @@ public class NewsAction extends ActionSupport implements ModelDriven {
             return "adderror";
         }else {
             Date date = new Date();
-            SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd");
+            SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
             Category a = adminService.getCategoryByid(category_id);
             news.setIssueTime(String.valueOf(df.format(date)));//生成当前系统时间
             news.setCategory(a);
@@ -62,10 +60,10 @@ public class NewsAction extends ActionSupport implements ModelDriven {
         return "listCategoryName";
     }
 
-    //显示新闻
+    //点击第几页获取page 显示新闻，这里不接收新闻类型，每次点击上一页和下一页都只能查询全部
     public String listNews(){
         //newsList = adminService.listNews();
-        //查询所有的新闻类型
+        //查询所有的新闻类型，方便前端下拉框获取数值
         categories = adminService.listCategory();
         PageBean pagebean;
         if(page!=0){
@@ -95,24 +93,26 @@ public class NewsAction extends ActionSupport implements ModelDriven {
         return "update";
     }
 
-    //获取新闻
+    //通过新闻ID 删除新闻
     public String deleteNews(){
         news = adminService.getNewsByid(id);
         adminService.deleteNews(news);
         return SUCCESS;
     }
 
-    //根据新闻类型来查询新闻
+    //根据新闻类型来查询新闻，首先会进行判断，再将其新闻放在分页里面
     public String findNewsByCategoryName(){
         if (category_id==0){
             error="请选择类型再确定！";
             return "error";
         }
+        //由新闻类型的ID外键查询新闻类型，新闻类型ID由下拉框获取传递
         Category c = adminService.getCategoryByid(category_id);
         //newsList=adminService.listNewsByCategoryId(c);
         categories = adminService.listCategory();
         PageBean pagebean1;
         if(page!=0){
+            //在service中查询新闻列表后再放入Pagebean中并返回
             pagebean1 = adminService.findNewsByPageandCid(page,c);
         }
         else {
@@ -124,7 +124,7 @@ public class NewsAction extends ActionSupport implements ModelDriven {
         return "findAll";
     }
 
-    //查询指定新闻内容
+    //由新闻的ID 查询指定新闻内容
     public String findNewsContent(){
         news = adminService.getNewsByid(id);
         return "content";

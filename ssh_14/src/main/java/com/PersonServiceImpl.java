@@ -1,6 +1,7 @@
 package com;
 
 import org.springframework.orm.hibernate5.support.HibernateDaoSupport;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -13,7 +14,9 @@ import java.util.List;
  * @Description:
  */
 @Transactional(readOnly = false)
+@Service
 public class PersonServiceImpl  implements PersonService{
+
     @Resource
     private PersonDao personDao;
 
