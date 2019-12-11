@@ -7,77 +7,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0c7c4f1-b284-4108-8334-ebad450c5584" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../xglssh/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xglssh/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xglssh/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/java/action_xgl/CategoryAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/java/action_xgl/LoginAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/java/action_xgl/NewsAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/java/bean_xgl/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/java/bean_xgl/News.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/java/bean_xgl/PageBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/java/bean_xgl/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/java/daoImp_xgl/CategoryDaoImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/java/daoImp_xgl/LoginDaoImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/java/daoImp_xgl/NewsDaoImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/java/dao_xgl/CategoryDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/java/dao_xgl/LoginDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/java/dao_xgl/NewsDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/java/serviceImp_xgl/AdminServiceImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/java/service_xgl/AdminService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/resources/bean_xgl/Category.hbm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/resources/bean_xgl/News.hbm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/resources/bean_xgl/User.hbm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/resources/spring-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/resources/struts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/addCategory.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/addNews.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/admin.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/adminCenter.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/js/Struts-js.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/js/jquery-3.1.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/js/jquery-3.1.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/js/jquery-3.3.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/js/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/listCategory.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/listNews.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/newContent.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/test.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/updateCategory.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/updateNews.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ssh12new/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh12new/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/action/NewsAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/action/NewsAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/daoImp/CategoryDaoImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/daoImp/CategoryDaoImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/daoImp/NewsDaoImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/daoImp/NewsDaoImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/bean/Category.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bean/Category.hbm.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_13/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh_13/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_14/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh_14/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_14/src/main/java/com/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh_14/src/main/java/com_xgl/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_14/src/main/java/com/PersonDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh_14/src/main/java/com_xgl/PersonDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_14/src/main/java/com/PersonDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh_14/src/main/java/com_xgl/PersonDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_14/src/main/java/com/PersonDaoImpl2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh_14/src/main/java/com_xgl/PersonDaoImpl2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_14/src/main/java/com/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh_14/src/main/java/com_xgl/PersonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_14/src/main/java/com/PersonServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh_14/src/main/java/com_xgl/PersonServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_14/src/main/java/com/SpringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh_14/src/main/java/com_xgl/SpringTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_14/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh_14/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_14/src/main/resources/com/Person.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh_14/src/main/resources/com_xgl/Person.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_14/src/test/java/SpringText.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh_14/src/test/java/SpringText.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_14/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh_14/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_14/target/classes/com/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_14/target/classes/com/Person.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_14/target/classes/com/PersonDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_14/target/classes/com/PersonDaoImpl2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_14/target/classes/com/PersonService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_14/target/classes/com/PersonServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_14/target/classes/com/SpringTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_14/target/test-classes/SpringText.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh_14/target/test-classes/SpringText.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -122,8 +72,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/action/CategoryAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="78" column="12" lean-forward="true" selection-start-line="78" selection-start-column="12" selection-end-line="78" selection-end-column="27" />
+            <state relative-caret-position="450">
+              <caret line="78" column="12" selection-start-line="78" selection-start-column="12" selection-end-line="78" selection-end-column="27" />
               <folding>
                 <element signature="e#477#478#0" expanded="true" />
                 <element signature="e#508#509#0" expanded="true" />
@@ -263,7 +213,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1165" />
@@ -277,8 +227,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -370,6 +318,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -498,16 +448,17 @@
       <workItem from="1575352863190" duration="11786000" />
       <workItem from="1575367471292" duration="148000" />
       <workItem from="1575380593681" duration="612000" />
+      <workItem from="1576064233954" duration="709000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21844000" />
+    <option name="totallyTimeSpent" value="22553000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="7" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20988539" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16905445" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -517,7 +468,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.47439352" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5889488" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38101983" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -799,6 +750,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/test.jsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -825,17 +783,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/action/CategoryAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="78" column="12" lean-forward="true" selection-start-line="78" selection-start-column="12" selection-end-line="78" selection-end-column="27" />
+        <state relative-caret-position="450">
+          <caret line="78" column="12" selection-start-line="78" selection-start-column="12" selection-end-line="78" selection-end-column="27" />
           <folding>
             <element signature="e#477#478#0" expanded="true" />
             <element signature="e#508#509#0" expanded="true" />

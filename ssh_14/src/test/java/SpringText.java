@@ -1,8 +1,7 @@
-import com.Person;
-import com.PersonService;
+import com_xgl.Person;
+import com_xgl.PersonService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 

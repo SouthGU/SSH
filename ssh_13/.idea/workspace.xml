@@ -2,28 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5621d0fb-c041-442c-bb48-28d9dc19d009" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../xglssh/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../xglssh/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../xglssh/src/main/java/action_xgl/NewsAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../xglssh/src/main/java/action_xgl/NewsAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../xglssh/src/main/java/daoImp_xgl/NewsDaoImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../xglssh/src/main/java/daoImp_xgl/NewsDaoImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../xglssh/src/main/java/serviceImp_xgl/AdminServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../xglssh/src/main/java/serviceImp_xgl/AdminServiceImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../xglssh/src/main/java/service_xgl/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../xglssh/src/main/java/service_xgl/AdminService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../xglssh/src/main/webapp/addNews.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/addNews.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../xglssh/src/main/webapp/admin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/admin.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../xglssh/src/main/webapp/adminCenter.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/adminCenter.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../xglssh/src/main/webapp/listCategory.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/listCategory.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../xglssh/src/main/webapp/listNews.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../xglssh/src/main/webapp/listNews.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../xglssh/target/classes/action_xgl/NewsAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../xglssh/target/classes/action_xgl/NewsAction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../xglssh/target/classes/daoImp_xgl/NewsDaoImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../xglssh/target/classes/daoImp_xgl/NewsDaoImp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../xglssh/target/classes/serviceImp_xgl/AdminServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../xglssh/target/classes/serviceImp_xgl/AdminServiceImp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../xglssh/target/xglssh.war" beforeDir="false" afterPath="$PROJECT_DIR$/../xglssh/target/xglssh.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../xglssh/target/xglssh/WEB-INF/classes/action_xgl/NewsAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../xglssh/target/xglssh/WEB-INF/classes/action_xgl/NewsAction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../xglssh/target/xglssh/WEB-INF/classes/daoImp_xgl/NewsDaoImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../xglssh/target/xglssh/WEB-INF/classes/daoImp_xgl/NewsDaoImp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../xglssh/target/xglssh/WEB-INF/classes/serviceImp_xgl/AdminServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../xglssh/target/xglssh/WEB-INF/classes/serviceImp_xgl/AdminServiceImp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../xglssh/target/xglssh/addNews.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../xglssh/target/xglssh/addNews.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../xglssh/target/xglssh/admin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../xglssh/target/xglssh/admin.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../xglssh/target/xglssh/adminCenter.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../xglssh/target/xglssh/adminCenter.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../xglssh/target/xglssh/listCategory.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../xglssh/target/xglssh/listCategory.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../xglssh/target/xglssh/listNews.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../xglssh/target/xglssh/listNews.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssh_14/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssh_14/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -42,7 +22,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
+            <state relative-caret-position="638">
               <caret line="29" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
@@ -75,11 +55,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/SM/PersonServiceBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-166">
-              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+            <state relative-caret-position="396">
+              <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SM/SpringTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="394">
+              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -124,11 +116,11 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1457" />
-    <option name="height" value="877" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-20" />
+    <option name="y" value="-20" />
+    <option name="width" value="2280" />
+    <option name="height" value="1375" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -136,7 +128,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -177,10 +168,17 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ssh_13" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssh_13" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -188,7 +186,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/SM" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ssh_14" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -253,17 +251,18 @@
       <updated>1571835918663</updated>
       <workItem from="1571835923673" duration="5413000" />
       <workItem from="1575466278768" duration="44000" />
+      <workItem from="1576042423332" duration="638000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5457000" />
+    <option name="totallyTimeSpent" value="6095000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23710601" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23994638" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -310,19 +309,9 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/PersonService.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/PersonDaoBean.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/PersonServiceBean.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/SM/SpringTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
+        <state relative-caret-position="638">
           <caret line="29" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
@@ -350,8 +339,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SM/PersonServiceBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-166">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        <state relative-caret-position="396">
+          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SM/SpringTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

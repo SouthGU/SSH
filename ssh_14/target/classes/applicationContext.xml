@@ -19,7 +19,7 @@
        <property name="dataSource" ref="dataSource"/>
        <property name="mappingResources">
            <list>
-               <value>com/Person.hbm.xml</value>
+               <value>com_xgl/Person.hbm.xml</value>
            </list>
        </property>
        <!--配置Hibernate的相关属性-->
@@ -48,16 +48,16 @@
     -->
 
     <!--第二种：HibernateDaoSupport类-->
-    <bean id="personDao" class="com.PersonDaoImpl2">
+    <bean id="personDao" class="com_xgl.PersonDaoImpl2">
         <property name="sessionFactory" ref="sessionFactory"/>
     </bean>
 
-<!--    <bean id="personService" class="com.PersonServiceImpl"/>-->
+<!--    <bean id="personService" class="PersonServiceImpl"/>-->
 
     <!--开启使用注解声明事务-->
     <tx:annotation-driven transaction-manager="txManager"/>
 
-    <context:component-scan base-package="com"/>
+    <context:component-scan base-package="com_xgl"/>
 <!--    <context:annotation-config/>-->
 
 
