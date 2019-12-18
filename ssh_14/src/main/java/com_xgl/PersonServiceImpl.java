@@ -14,9 +14,9 @@ import java.util.List;
 @Transactional(readOnly = false)
 @Service
 public class PersonServiceImpl  implements PersonService{
-
     @Resource
     private PersonDao personDao;
+
 
     public void addPerson(Person person){
         personDao.saveOrUpdatePerson(person);

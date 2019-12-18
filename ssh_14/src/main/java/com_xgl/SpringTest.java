@@ -21,6 +21,9 @@ public class SpringTest {
     public static void main(String[] args) {
         add();
         findAllpersons();
+        findPersonById(1);
+        update(1);
+        delete(1);
     }
 
     public static void  add(){

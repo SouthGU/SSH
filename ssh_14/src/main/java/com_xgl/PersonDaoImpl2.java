@@ -1,7 +1,9 @@
 package com_xgl;
 
 import org.springframework.orm.hibernate5.support.HibernateDaoSupport;
+import org.springframework.stereotype.Repository;
 
+import javax.annotation.Resource;
 import java.util.List;
 
 /**
@@ -9,7 +11,7 @@ import java.util.List;
  * @Date: 2019/10/24/15:31
  * @Description:
  */
-
+@Repository
 public class PersonDaoImpl2 extends HibernateDaoSupport implements PersonDao{
 
 
