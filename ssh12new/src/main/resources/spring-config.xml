@@ -12,47 +12,39 @@
     <!--<aop:aspectj-autoproxy/>-->
     <!--<bean name="myInterceptor" class="aop.MyInterceptor"/>-->
     <!--<bean name="loginService" class="serviceImp.LoginServiceImp"/>-->
-    <!--
-    创建spring bean 要指定scope,默认情况是singleton,
-     当校验多次时singleton情况下会形成一个共享单例，
-     即这个单一实例会被存储到单例缓存（singleton cache）中，
-     并且所有针对该bean的后续请求和引用都将返回被缓存的对象实例
-     因此第一次校验有效的情况。
-     改为prototype,则是向spring指明每次访问都会生成新的bean实例
-     彼此的操作不会受到影响
-    -->
+
 
     <!--action层-->
     <!--登录 等整合-->
-    <bean name="loginAction" class="action.LoginAction" scope="prototype">
+    <bean name="loginAction" class="action_xgl.LoginAction" scope="prototype">
         <property name="adminService" ref="adminServiceImp"/>
     </bean>
     <!--新闻类型模块-->
-    <bean name="categoryAction" class="action.CategoryAction" scope="prototype">
+    <bean name="categoryAction" class="action_xgl.CategoryAction" scope="prototype">
         <property name="adminService" ref="adminServiceImp"/>
     </bean>
     <!--新闻内容模块-->
-    <bean name="news" class="action.NewsAction" scope="prototype">
+    <bean name="news" class="action_xgl.NewsAction" scope="prototype">
         <property name="adminService" ref="adminServiceImp"/>
     </bean>
 
 
 
     <!--serivice层-->
-    <bean name="adminServiceImp" class="serviceImp.AdminServiceImp">
+    <bean name="adminServiceImp" class="serviceImp_xgl.AdminServiceImp">
         <property name="categoryDao" ref="categoryDaoImp"/>
         <property name="newsDao" ref="newsDaoImp"/>
         <property name="loginDao" ref="loginDaoImp"/>
     </bean>
 
     <!--dao层-->
-    <bean name="loginDaoImp" class="daoImp.LoginDaoImp">
+    <bean name="loginDaoImp" class="daoImp_xgl.LoginDaoImp">
         <property name="sessionFactory" ref="sessionFactory"/>
     </bean>
-    <bean name="categoryDaoImp" class="daoImp.CategoryDaoImp">
+    <bean name="categoryDaoImp" class="daoImp_xgl.CategoryDaoImp">
         <property name="sessionFactory" ref="sessionFactory"/>
     </bean>
-    <bean name="newsDaoImp" class="daoImp.NewsDaoImp">
+    <bean name="newsDaoImp" class="daoImp_xgl.NewsDaoImp">
         <property name="sessionFactory" ref="sessionFactory"/>
     </bean>
 
@@ -119,10 +111,10 @@
     <!-- hibernate映射文件的引入 -->
     <property name="mappingResources">
             <list>
-                <value>bean/User.hbm.xml</value>
-                <value>bean/Category.hbm.xml</value>
-                <value>bean/News.hbm.xml</value>
-                <value>bean/User.hbm.xml</value>
+                <value>bean_xgl/User.hbm.xml</value>
+                <value>bean_xgl/Category.hbm.xml</value>
+                <value>bean_xgl/News.hbm.xml</value>
+                <value>bean_xgl/User.hbm.xml</value>
             </list>
     </property>
     </bean>
