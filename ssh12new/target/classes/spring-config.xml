@@ -57,7 +57,6 @@
     </bean>
 
 
-
     <!--访问根目录里的jdbc.properties并将其封装成bean-->
     <bean id="propertyConfigurer"
           class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">

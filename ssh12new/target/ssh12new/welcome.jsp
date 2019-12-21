@@ -55,35 +55,35 @@
         <div class="col-sm-12">
             <br/>
         </div>
-        <!-- 第二部分左右分布 -->
-        <div class="col-sm-4 oo">
-            <div id="accordion">
-                <div class="card">
-                    <h3>百度热搜榜</h3>
-                    <s:iterator value="newsList1" var="newsList1" status="stu">
-                        <div class="card-header">
-                            <a class="card-link" data-toggle="collapse" href="#collapseOne">
+<%--        <!-- 第二部分左右分布 -->--%>
+<%--        <div class="col-sm-4 oo">--%>
+<%--            <div id="accordion">--%>
+<%--                <div class="card">--%>
+<%--                    <h3>百度热搜榜</h3>--%>
+<%--                    <s:iterator value="newsList1" var="newsList1" status="stu">--%>
+<%--                        <div class="card-header">--%>
+<%--                            <a class="card-link" data-toggle="collapse" href="#collapseOne">--%>
 
-                                <li>
-                                    <s:a href="/New/news_findNews.action?id=%{#newsList1.id}">
-                                        <s:property value="#newsList1.title"/>
-                                        &nbsp;&nbsp;
-                                        <s:property value="#newsList1.issueTime"/>
-                                    </s:a>
+<%--                                <li>--%>
+<%--                                    <s:a href="/New/news_findNews.action?id=%{#newsList1.id}">--%>
+<%--                                        <s:property value="#newsList1.title"/>--%>
+<%--                                        &nbsp;&nbsp;--%>
+<%--                                        <s:property value="#newsList1.issueTime"/>--%>
+<%--                                    </s:a>--%>
 
-                                </li>
+<%--                                </li>--%>
 
-                            </a>
-                        </div>
-                    </s:iterator>
-                </div>
-            </div>
-        </div>
+<%--                            </a>--%>
+<%--                        </div>--%>
+<%--                    </s:iterator>--%>
+<%--                </div>--%>
+<%--            </div>--%>
+<%--        </div>--%>
 
         <!-- 轮播图 -->
-        <div class="col-sm-8">
+        <div class="col-sm-12">
             <s:iterator value="categories" var="categories" status="stu">
-                <div class="oo" style="float:left;margin-left:20px">
+                <div class="oo col-sm-12" style="float:left;margin-left:20px">
                     <div>
                         <h3>
                             <s:property value="#categories.CategoryName"/>
@@ -130,7 +130,7 @@
                                 <!--<td> </td>-->
                                 <td><s:a href="/New/news_findNews.action?id=%{#newsList.id}">
                                     <s:property value="#newsList.title"/>|
-                                    <s:property value="#newsList.content"/>
+<%--                                    <s:property value="#newsList.content"/>--%>
                                     <s:property value="#newsList.issueTime"/>
                                 </s:a>
                                 </td>

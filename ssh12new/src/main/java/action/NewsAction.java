@@ -40,7 +40,7 @@ public class NewsAction extends ActionSupport implements ModelDriven {
             return "adderror";
         }else {
             Date date = new Date();
-            SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd");
+            SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
             Category a = adminService.getCategoryByid(category_id);
             news.setIssueTime(String.valueOf(df.format(date)));//生成当前系统时间
             news.setCategory(a);
