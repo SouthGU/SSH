@@ -28,7 +28,7 @@
                 <s:textfield name="user.password" type="password" id="inputPassword" class="form-control" placeholder="密码"/>
                 <p></p>
                 <button class="btn btn-lg btn-primary btn-block" type="submit">登陆</button>
-                <p class="mt-5 mb-3 text-muted">北京百度科技有限公司© 2018-2019</p>
+
             </form>
             <br/>
         </div>

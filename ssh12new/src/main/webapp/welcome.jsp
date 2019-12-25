@@ -4,7 +4,7 @@
 <%@ taglib prefix="c" uri="/struts-tags" %>
 <html>
 <head>
-    <title>百度新闻首页</title>
+    <title>新闻首页</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <style>
@@ -26,7 +26,6 @@
     <div class="row">
         <div class="col-sm-12">
             <nav class="navbar navbar-dark  navbar-expand-md sticky-top"style="background: #6c757d">
-                <a class="navbar-brand" href="#"><font style="vertical-align: inherit;color: #fdfdfe">百度天下事</font></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mynav">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -38,7 +37,7 @@
                             <div class="input-group-append">
                                 <span class="input-group-btn">
                                         <button class="btn btn-success" type="submit" style="background: #007bff">
-                                            <i class="fa fa-search">百度一下</i>
+                                            <i class="fa fa-search">查询新闻</i>
                                         </button>
                                 </span>
                             </div>
@@ -55,35 +54,12 @@
         <div class="col-sm-12">
             <br/>
         </div>
-<%--        <!-- 第二部分左右分布 -->--%>
-<%--        <div class="col-sm-4 oo">--%>
-<%--            <div id="accordion">--%>
-<%--                <div class="card">--%>
-<%--                    <h3>百度热搜榜</h3>--%>
-<%--                    <s:iterator value="newsList1" var="newsList1" status="stu">--%>
-<%--                        <div class="card-header">--%>
-<%--                            <a class="card-link" data-toggle="collapse" href="#collapseOne">--%>
 
-<%--                                <li>--%>
-<%--                                    <s:a href="/New/news_findNews.action?id=%{#newsList1.id}">--%>
-<%--                                        <s:property value="#newsList1.title"/>--%>
-<%--                                        &nbsp;&nbsp;--%>
-<%--                                        <s:property value="#newsList1.issueTime"/>--%>
-<%--                                    </s:a>--%>
 
-<%--                                </li>--%>
 
-<%--                            </a>--%>
-<%--                        </div>--%>
-<%--                    </s:iterator>--%>
-<%--                </div>--%>
-<%--            </div>--%>
-<%--        </div>--%>
-
-        <!-- 轮播图 -->
-        <div class="col-sm-12">
+        <div class="col-sm-12" align="center">
             <s:iterator value="categories" var="categories" status="stu">
-                <div class="oo col-sm-12" style="float:left;margin-left:20px">
+                <div class="col-sm-12" style="float:left;margin-left:20px">
                     <div>
                         <h3>
                             <s:property value="#categories.CategoryName"/>
@@ -104,19 +80,26 @@
                         </div>
                     </div>
                 </div>
+                <br>
             </s:iterator>
+            <br>
         </div>
+        <br>
         <div class="col-sm-12">
             <p></p>
         </div>
-
+        <br>
+        <br><br>
+        <br>
+        <br>
+        <br>
         <div class="offset-4">
             <s:form action="news_findNewsByTime"  namespace="/" method="POST">
                 <div>
                     <center>
-                        <input type="text" name="start" id="start" style="width: 120px;height: 35px" placeholder="开始时间"/>&nbsp;
+                        <input type="text" name="start" id="start" style="width: 120px;height: 35px" placeholder="开始时间"/>&nbsp;&nbsp;至&nbsp;&nbsp;
                         <input type="text" name="end" id="end" style="width: 120px;height: 35px" placeholder="截止时间"/>&nbsp;
-                        <input type="submit" value="搜一搜" class="btn btn-info">
+                        <input type="submit" value="搜新闻" class="btn btn-info">
                     </center>
                 </div>
             </s:form>

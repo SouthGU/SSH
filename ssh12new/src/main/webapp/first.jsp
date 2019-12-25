@@ -36,7 +36,7 @@
                     <div class="input-group-append">
                         <span class="input-group-btn">
                                 <button class="btn btn-success" type="submit" style="background: #007bff">
-                                    <i class="fa fa-search">百度一下</i>
+                                    <i class="fa fa-search">查询</i>
                                 </button>
                         </span>
                     </div>
