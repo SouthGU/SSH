@@ -85,7 +85,7 @@
             <result name="update">/updateNews.jsp</result>
             <allowed-methods>
                 listCategoryName,addNews,updateNews,getNewsByid,deleteNews,
-                listNews,findNewsByCategoryName,findNewsContent,findNewsByTitle,
+                listNews,findNewsByCategoryName,findNewsContent,ficonstantndNewsByTitle,
                 show,findNewsByTime,findNews,findNewsByPage
             </allowed-methods>
         </action>

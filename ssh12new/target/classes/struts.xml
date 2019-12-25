@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN" "struts-2.5.dtd" >
+
+<struts>
+
+    <constant name="struts.enable.DynamicMethodInvocation" value="false" />
+
+    <!-- 告知Struts2运行时使用Spring来创建对象-->
+    <constant name="struts.objectFactory" value="spring"/>
+
+    <!-- 告知Struts2运行时使用国际化资源-->
+    <constant name="struts.custom.i18n.resources" value="message"/>
+
+    <!-- 告知Struts2运行时使用utf-8-->
+    <constant name="struts.i18n.encoding" value="UTF-8" />
+
+    <package name="NewSystem" namespace="/" extends="struts-default">
+
+        <!--权限访问-->
+        <interceptors>
+            <interceptor name="authorty" class="Interceptor.AuthorityInterceptor"/>
+        <interceptor-stack name="myStack">
+            <interceptor-ref name="defaultStack"/>
+            <interceptor-ref name="authorty"/>
+        </interceptor-stack>
+        </interceptors>
+        <global-results>
+            <result name="login">/login.jsp</result>
+        </global-results>
+        <!--用户登录模块-->
+        <action name="LoginAction" class="loginAction" method="login">
+            <result name="input">/login.jsp</result>
+            <result name="success">adminCenter.jsp</result>
+        </action>
+
+        <!--新闻类型模块-->
+        <action name="category_*" class="categoryAction" method="{1}">
+            <result name="list">/listCategory.jsp</result>
+            <result name="error" type="redirectAction">
+                <param name="actionName">category_listCategory</param>
+                <param name="namespace">/</param>
+                <param name="error">${error}</param>
+            </result>
+            <result name="adderror">/addCategory.jsp</result>
+
+            <result name="updaterror">
+                /updateCategory.jsp
+            </result>
+
+            <result name="success" type="redirectAction">
+                <param name="actionName">category_listCategory</param>
+                <param name="namespace">/</param>
+            </result>
+            <result name="update">/updateCategory.jsp</result>
+            <allowed-methods>
+                addCategory,updateCategory,updatedCategory,deleteCategory,listCategory
+            </allowed-methods>
+        </action>
+
+        <!--新闻内容模块-->
+        <action name="news_*" class="news" method="{1}">
+            <result name="listCategoryName">/addNews.jsp</result>
+            <result name="list">/listNews.jsp</result>
+            <result name="list1">/first.jsp</result>
+            <result name="content">/newContent.jsp</result>
+            <result name="second">/second.jsp</result>
+            <result name="show">/welcome.jsp</result>
+            <result name="findAll">/test.jsp</result>
+
+            <result name="adderror" type="redirectAction">
+                <param name="actionName">news_listCategoryName</param>
+                <param name="namespace">/</param>
+                <param name="error">${error}</param>
+            </result>
+
+            <result name="error" type="redirectAction">
+                <param name="actionName">news_listNews</param>
+                <param name="namespace">/</param>
+                <param name="error">${error}</param>
+            </result>
+            <result name="success" type="redirectAction">
+                <param name="actionName">news_listNews</param>
+                <param name="namespace">/</param>
+            </result>
+            <result name="update">/updateNews.jsp</result>
+            <allowed-methods>
+                listCategoryName,addNews,updateNews,getNewsByid,deleteNews,
+                listNews,findNewsByCategoryName,findNewsContent,ficonstantndNewsByTitle,
+                show,findNewsByTime,findNews,findNewsByPage
+            </allowed-methods>
+        </action>
+    </package>
+
+</struts>

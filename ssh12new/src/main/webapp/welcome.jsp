@@ -26,6 +26,10 @@
     <div class="row">
         <div class="col-sm-12">
             <nav class="navbar navbar-dark  navbar-expand-md sticky-top"style="background: #6c757d">
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0c7da831d7f18e536802382c6dab1c9e7ecc02c0
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mynav">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -37,7 +41,11 @@
                             <div class="input-group-append">
                                 <span class="input-group-btn">
                                         <button class="btn btn-success" type="submit" style="background: #007bff">
+<<<<<<< HEAD
                                             <i class="fa fa-search">查询新闻</i>
+=======
+                                            <i class="fa fa-search">查询</i>
+>>>>>>> 0c7da831d7f18e536802382c6dab1c9e7ecc02c0
                                         </button>
                                 </span>
                             </div>
@@ -55,11 +63,18 @@
             <br/>
         </div>
 
+<<<<<<< HEAD
 
 
         <div class="col-sm-12" align="center">
             <s:iterator value="categories" var="categories" status="stu">
                 <div class="col-sm-12" style="float:left;margin-left:20px">
+=======
+        <!-- 轮播图 -->
+        <div class="col-sm-12" align="center">
+            <s:iterator value="categories" var="categories" status="stu">
+                <div class="col-sm-12 ">
+>>>>>>> 0c7da831d7f18e536802382c6dab1c9e7ecc02c0
                     <div>
                         <h3>
                             <s:property value="#categories.CategoryName"/>
@@ -97,9 +112,15 @@
             <s:form action="news_findNewsByTime"  namespace="/" method="POST">
                 <div>
                     <center>
+<<<<<<< HEAD
                         <input type="text" name="start" id="start" style="width: 120px;height: 35px" placeholder="开始时间"/>&nbsp;&nbsp;至&nbsp;&nbsp;
                         <input type="text" name="end" id="end" style="width: 120px;height: 35px" placeholder="截止时间"/>&nbsp;
                         <input type="submit" value="搜新闻" class="btn btn-info">
+=======
+                        <input type="text" name="start" id="start" style="width: 120px;height: 35px" placeholder="开始时间"/>&nbsp;
+                        至&nbsp;<input type="text" name="end" id="end" style="width: 120px;height: 35px" placeholder="截止时间"/>&nbsp;
+                        <input type="submit" value="搜索新闻" class="btn btn-info">
+>>>>>>> 0c7da831d7f18e536802382c6dab1c9e7ecc02c0
                     </center>
                 </div>
             </s:form>

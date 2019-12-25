@@ -9,6 +9,13 @@
         http://www.springframework.org/schema/tx/spring-tx.xsd
         http://www.springframework.org/schema/aop
 	    http://www.springframework.org/schema/aop/spring-aop.xsd">
+<<<<<<< HEAD
+=======
+    <!--<aop:aspectj-autoproxy/>-->
+    <!--<bean name="myInterceptor" class="aop.MyInterceptor"/>-->
+    <!--<bean name="loginService" class="serviceImp.LoginServiceImp"/>-->
+
+>>>>>>> 0c7da831d7f18e536802382c6dab1c9e7ecc02c0
 
     <!--action层-->
     <!--登录 等整合-->
